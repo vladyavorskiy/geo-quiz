@@ -1,0 +1,8339 @@
+[
+ {
+  "code": "ABW",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Aruba",
+   "ru": "Аруба"
+  },
+  "capital": {
+   "en": [
+    "Oranjestad"
+   ],
+   "ru": [
+    "Ораньестад"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Aruba"
+   ],
+   "ru": [
+    "Аруба"
+   ]
+  },
+  "latlng": [
+   12.5,
+   -69.96666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "AFG",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Afghanistan",
+   "ru": "Афганистан"
+  },
+  "capital": {
+   "en": [
+    "Kabul"
+   ],
+   "ru": [
+    "Кабул"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Islamic Republic of Afghanistan",
+    "Afġānistān"
+   ],
+   "ru": [
+    "Исламская Республика Афганистан"
+   ]
+  },
+  "latlng": [
+   33,
+   65
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "AGO",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Angola",
+   "ru": "Ангола"
+  },
+  "capital": {
+   "en": [
+    "Luanda"
+   ],
+   "ru": [
+    "Луанда"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Angola",
+    "República de Angola",
+    "ʁɛpublika de an'ɡɔla"
+   ],
+   "ru": [
+    "Республика Ангола"
+   ]
+  },
+  "latlng": [
+   -12.5,
+   18.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "AIA",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Anguilla",
+   "ru": "Ангилья"
+  },
+  "capital": {
+   "en": [
+    "The Valley"
+   ],
+   "ru": [
+    "Валли"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Anguilla"
+   ],
+   "ru": [
+    "Ангилья"
+   ]
+  },
+  "latlng": [
+   18.25,
+   -63.16666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ALA",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": false,
+  "name": {
+   "en": "Åland Islands",
+   "ru": "Аландские острова"
+  },
+  "capital": {
+   "en": [
+    "Mariehamn"
+   ],
+   "ru": [
+    "Мариехамн"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Åland Islands",
+    "Aaland",
+    "Aland",
+    "Ahvenanmaa"
+   ],
+   "ru": [
+    "Аландские острова"
+   ]
+  },
+  "latlng": [
+   60.116667,
+   19.9
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ALB",
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Albania",
+   "ru": "Албания"
+  },
+  "capital": {
+   "en": [
+    "Tirana"
+   ],
+   "ru": [
+    "Тирана"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Albania",
+    "Shqipëri",
+    "Shqipëria",
+    "Shqipnia"
+   ],
+   "ru": [
+    "Республика Албания"
+   ]
+  },
+  "latlng": [
+   41,
+   20
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "AND",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Andorra",
+   "ru": "Андорра"
+  },
+  "capital": {
+   "en": [
+    "Andorra la Vella"
+   ],
+   "ru": [
+    "Андорра-ла-Велья"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Principality of Andorra",
+    "Principat d'Andorra"
+   ],
+   "ru": [
+    "Княжество Андорра"
+   ]
+  },
+  "latlng": [
+   42.5,
+   1.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ARE",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "United Arab Emirates",
+   "ru": "Объединённые Арабские Эмираты"
+  },
+  "capital": {
+   "en": [
+    "Abu Dhabi"
+   ],
+   "ru": [
+    "Абу-Даби"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "United Arab Emirates",
+    "UAE",
+    "Emirates"
+   ],
+   "ru": [
+    "Объединенные Арабские Эмираты"
+   ]
+  },
+  "latlng": [
+   24,
+   54
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ARG",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Argentina",
+   "ru": "Аргентина"
+  },
+  "capital": {
+   "en": [
+    "Buenos Aires"
+   ],
+   "ru": [
+    "Буэнос-Айрес"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Argentine Republic",
+    "República Argentina"
+   ],
+   "ru": [
+    "Аргентинская Республика"
+   ]
+  },
+  "latlng": [
+   -34,
+   -64
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ARM",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "capital": {
+   "en": [
+    "Yerevan"
+   ],
+   "ru": [
+    "Ереван"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Armenia",
+    "Hayastan"
+   ],
+   "ru": [
+    "Республика Армения"
+   ]
+  },
+  "latlng": [
+   40,
+   45
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ASM",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "sovereign": false,
+  "name": {
+   "en": "American Samoa",
+   "ru": "Американское Самоа"
+  },
+  "capital": {
+   "en": [
+    "Pago Pago"
+   ],
+   "ru": [
+    "Паго-Паго"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "American Samoa",
+    "Amerika Sāmoa",
+    "Amelika Sāmoa",
+    "Sāmoa Amelika"
+   ],
+   "ru": [
+    "американское Самоа"
+   ]
+  },
+  "latlng": [
+   -14.33333333,
+   -170
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ATA",
+  "region": "Antarctic",
+  "subregion": "",
+  "sovereign": false,
+  "name": {
+   "en": "Antarctica",
+   "ru": "Антарктида"
+  },
+  "capital": {
+   "en": [],
+   "ru": []
+  },
+  "aliases": {
+   "en": [
+    "Antarctica"
+   ],
+   "ru": [
+    "Антарктида"
+   ]
+  },
+  "latlng": [
+   -90,
+   0
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ATF",
+  "region": "Antarctic",
+  "subregion": "",
+  "sovereign": false,
+  "name": {
+   "en": "French Southern and Antarctic Lands",
+   "ru": "Французские Южные и Антарктические территории"
+  },
+  "capital": {
+   "en": [
+    "Port-aux-Français"
+   ],
+   "ru": [
+    "Порт-о-Франсе"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Territory of the French Southern and Antarctic Lands",
+    "French Southern Territories"
+   ],
+   "ru": [
+    "Территория Французские Южные и Антарктические земли"
+   ]
+  },
+  "latlng": [
+   -49.25,
+   69.167
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ATG",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Antigua and Barbuda",
+   "ru": "Антигуа и Барбуда"
+  },
+  "capital": {
+   "en": [
+    "Saint John's"
+   ],
+   "ru": [
+    "Сент-Джонс"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Antigua and Barbuda"
+   ],
+   "ru": [
+    "Антигуа и Барбуда"
+   ]
+  },
+  "latlng": [
+   17.05,
+   -61.8
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "AUS",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "sovereign": true,
+  "name": {
+   "en": "Australia",
+   "ru": "Австралия"
+  },
+  "capital": {
+   "en": [
+    "Canberra"
+   ],
+   "ru": [
+    "Канберра"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Commonwealth of Australia"
+   ],
+   "ru": [
+    "Содружество Австралии"
+   ]
+  },
+  "latlng": [
+   -27,
+   133
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "AUT",
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Austria",
+   "ru": "Австрия"
+  },
+  "capital": {
+   "en": [
+    "Vienna"
+   ],
+   "ru": [
+    "Вена"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Austria",
+    "Osterreich",
+    "Oesterreich"
+   ],
+   "ru": [
+    "Австрийская Республика"
+   ]
+  },
+  "latlng": [
+   47.33333333,
+   13.33333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "AZE",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Azerbaijan",
+   "ru": "Азербайджан"
+  },
+  "capital": {
+   "en": [
+    "Baku"
+   ],
+   "ru": [
+    "Баку"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Azerbaijan",
+    "Azərbaycan Respublikası"
+   ],
+   "ru": [
+    "Азербайджанская Республика"
+   ]
+  },
+  "latlng": [
+   40.5,
+   47.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BDI",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Burundi",
+   "ru": "Бурунди"
+  },
+  "capital": {
+   "en": [
+    "Gitega"
+   ],
+   "ru": [
+    "Гитега"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Burundi",
+    "Republika y'Uburundi",
+    "République du Burundi"
+   ],
+   "ru": [
+    "Республика Бурунди"
+   ]
+  },
+  "latlng": [
+   -3.5,
+   30
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BEL",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Belgium",
+   "ru": "Бельгия"
+  },
+  "capital": {
+   "en": [
+    "Brussels"
+   ],
+   "ru": [
+    "Брюссель"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Belgium",
+    "België",
+    "Belgie",
+    "Belgien",
+    "Belgique",
+    "Koninkrijk België",
+    "Royaume de Belgique",
+    "Königreich Belgien"
+   ],
+   "ru": [
+    "Королевство Бельгия"
+   ]
+  },
+  "latlng": [
+   50.83333333,
+   4
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BEN",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Benin",
+   "ru": "Бенин"
+  },
+  "capital": {
+   "en": [
+    "Porto-Novo"
+   ],
+   "ru": [
+    "Порто-Ново"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Benin",
+    "République du Bénin"
+   ],
+   "ru": [
+    "Республика Бенин"
+   ]
+  },
+  "latlng": [
+   9.5,
+   2.25
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BFA",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Burkina Faso",
+   "ru": "Буркина-Фасо"
+  },
+  "capital": {
+   "en": [
+    "Ouagadougou"
+   ],
+   "ru": [
+    "Уагадугу"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Burkina Faso"
+   ],
+   "ru": [
+    "Буркина -Фасо"
+   ]
+  },
+  "latlng": [
+   13,
+   -2
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BGD",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Bangladesh",
+   "ru": "Бангладеш"
+  },
+  "capital": {
+   "en": [
+    "Dhaka"
+   ],
+   "ru": [
+    "Дакка"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "People's Republic of Bangladesh",
+    "Gônôprôjatôntri Bangladesh"
+   ],
+   "ru": [
+    "Народная Республика Бангладеш"
+   ]
+  },
+  "latlng": [
+   24,
+   90
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BGR",
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Bulgaria",
+   "ru": "Болгария"
+  },
+  "capital": {
+   "en": [
+    "Sofia"
+   ],
+   "ru": [
+    "София"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Bulgaria"
+   ],
+   "ru": [
+    "Республика Болгария"
+   ]
+  },
+  "latlng": [
+   43,
+   25
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BHR",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Bahrain",
+   "ru": "Бахрейн"
+  },
+  "capital": {
+   "en": [
+    "Manama"
+   ],
+   "ru": [
+    "Манама"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Bahrain",
+    "Mamlakat al-Baḥrayn"
+   ],
+   "ru": [
+    "Королевство Бахрейн"
+   ]
+  },
+  "latlng": [
+   26,
+   50.55
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BHS",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Bahamas",
+   "ru": "Багамские Острова"
+  },
+  "capital": {
+   "en": [
+    "Nassau"
+   ],
+   "ru": [
+    "Нассау"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Commonwealth of the Bahamas"
+   ],
+   "ru": [
+    "Содружество Багамских Островов"
+   ]
+  },
+  "latlng": [
+   24.25,
+   -76
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BIH",
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Bosnia and Herzegovina",
+   "ru": "Босния и Герцеговина"
+  },
+  "capital": {
+   "en": [
+    "Sarajevo"
+   ],
+   "ru": [
+    "Сараево"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Bosnia and Herzegovina",
+    "Bosnia-Herzegovina"
+   ],
+   "ru": [
+    "Босния и Герцеговина"
+   ]
+  },
+  "latlng": [
+   44,
+   18
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BLM",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Saint Barthélemy",
+   "ru": "Сен-Бартелеми"
+  },
+  "capital": {
+   "en": [
+    "Gustavia"
+   ],
+   "ru": [
+    "Густавия"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Collectivity of Saint Barthélemy",
+    "St. Barthelemy",
+    "Collectivité de Saint-Barthélemy"
+   ],
+   "ru": [
+    "Коллективность Санкт -Бартельми"
+   ]
+  },
+  "latlng": [
+   18.5,
+   -63.41666666
+  ],
+  "hasShape": true,
+  "flagShared": true
+ },
+ {
+  "code": "SHN",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": false,
+  "name": {
+   "en": "Saint Helena, Ascension and Tristan da Cunha",
+   "ru": "Острова Святой Елены, Вознесения и Тристан-да-Кунья"
+  },
+  "capital": {
+   "en": [
+    "Jamestown"
+   ],
+   "ru": [
+    "Джеймстаун"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Saint Helena, Ascension and Tristan da Cunha",
+    "Saint Helena",
+    "St. Helena, Ascension and Tristan da Cunha"
+   ],
+   "ru": [
+    "Острова Святой Елены, Вознесения и Тристан-да-Кунья"
+   ]
+  },
+  "latlng": [
+   -15.95,
+   -5.72
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BLR",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Belarus",
+   "ru": "Беларусь"
+  },
+  "capital": {
+   "en": [
+    "Minsk"
+   ],
+   "ru": [
+    "Минск"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Belarus",
+    "Bielaruś"
+   ],
+   "ru": [
+    "Республика Беларусь"
+   ]
+  },
+  "latlng": [
+   53,
+   28
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BLZ",
+  "region": "Americas",
+  "subregion": "Central America",
+  "sovereign": true,
+  "name": {
+   "en": "Belize",
+   "ru": "Белиз"
+  },
+  "capital": {
+   "en": [
+    "Belmopan"
+   ],
+   "ru": [
+    "Бельмопан"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Belize"
+   ],
+   "ru": [
+    "Белиз"
+   ]
+  },
+  "latlng": [
+   17.25,
+   -88.75
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BMU",
+  "region": "Americas",
+  "subregion": "North America",
+  "sovereign": false,
+  "name": {
+   "en": "Bermuda",
+   "ru": "Бермудские Острова"
+  },
+  "capital": {
+   "en": [
+    "Hamilton"
+   ],
+   "ru": [
+    "Гамильтон"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Bermuda",
+    "The Islands of Bermuda",
+    "The Bermudas",
+    "Somers Isles"
+   ],
+   "ru": [
+    "Бермудские острова"
+   ]
+  },
+  "latlng": [
+   32.33333333,
+   -64.75
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BOL",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Bolivia",
+   "ru": "Боливия"
+  },
+  "capital": {
+   "en": [
+    "Sucre"
+   ],
+   "ru": [
+    "Сукре",
+    "Ла-Пас"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Plurinational State of Bolivia",
+    "Buliwya",
+    "Wuliwya",
+    "Bolivia, Plurinational State of",
+    "Estado Plurinacional de Bolivia",
+    "Buliwya Mamallaqta",
+    "Wuliwya Suyu",
+    "Tetã Volívia"
+   ],
+   "ru": [
+    "Многонациональное Государство Боливия"
+   ]
+  },
+  "latlng": [
+   -17,
+   -65
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BES",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Caribbean Netherlands",
+   "ru": "Карибские Нидерланды"
+  },
+  "capital": {
+   "en": [
+    "Kralendijk",
+    "Oranjestad",
+    "The Bottom"
+   ],
+   "ru": [
+    "Кралендейк",
+    "Ораньестад",
+    "Боттом"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Bonaire, Sint Eustatius and Saba",
+    "BES islands",
+    "Bonaire Sint Eustatius and Saba"
+   ],
+   "ru": [
+    "Бонэйр, Синт-Эстатиус и Саба"
+   ]
+  },
+  "latlng": [
+   12.18,
+   -68.25
+  ],
+  "hasShape": false,
+  "flagShared": false
+ },
+ {
+  "code": "BRA",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Brazil",
+   "ru": "Бразилия"
+  },
+  "capital": {
+   "en": [
+    "Brasília"
+   ],
+   "ru": [
+    "Бразилиа"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Federative Republic of Brazil",
+    "Brasil",
+    "República Federativa do Brasil"
+   ],
+   "ru": [
+    "Федеративная Республика Бразилия"
+   ]
+  },
+  "latlng": [
+   -10,
+   -55
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BRB",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Barbados",
+   "ru": "Барбадос"
+  },
+  "capital": {
+   "en": [
+    "Bridgetown"
+   ],
+   "ru": [
+    "Бриджтаун"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Barbados"
+   ],
+   "ru": [
+    "Барбадос"
+   ]
+  },
+  "latlng": [
+   13.16666666,
+   -59.53333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BRN",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Brunei",
+   "ru": "Бруней"
+  },
+  "capital": {
+   "en": [
+    "Bandar Seri Begawan"
+   ],
+   "ru": [
+    "Бандар-Сери-Бегаван"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Nation of Brunei, Abode of Peace",
+    "Brunei Darussalam",
+    "Nation of Brunei",
+    "the Abode of Peace"
+   ],
+   "ru": [
+    "Нация Бруней, обитель мира"
+   ]
+  },
+  "latlng": [
+   4.5,
+   114.66666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BTN",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Bhutan",
+   "ru": "Бутан"
+  },
+  "capital": {
+   "en": [
+    "Thimphu"
+   ],
+   "ru": [
+    "Тхимпху"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Bhutan"
+   ],
+   "ru": [
+    "Королевство Бутан"
+   ]
+  },
+  "latlng": [
+   27.5,
+   90.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "BVT",
+  "region": "Antarctic",
+  "subregion": "",
+  "sovereign": false,
+  "name": {
+   "en": "Bouvet Island",
+   "ru": "Остров Буве"
+  },
+  "capital": {
+   "en": [],
+   "ru": []
+  },
+  "aliases": {
+   "en": [
+    "Bouvet Island",
+    "Bouvetøya",
+    "Bouvet-øya"
+   ],
+   "ru": [
+    "Остров Буве"
+   ]
+  },
+  "latlng": [
+   -54.43333333,
+   3.4
+  ],
+  "hasShape": false,
+  "flagShared": true
+ },
+ {
+  "code": "BWA",
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Botswana",
+   "ru": "Ботсвана"
+  },
+  "capital": {
+   "en": [
+    "Gaborone"
+   ],
+   "ru": [
+    "Габороне"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Botswana",
+    "Lefatshe la Botswana"
+   ],
+   "ru": [
+    "Республика Ботсвана"
+   ]
+  },
+  "latlng": [
+   -22,
+   24
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CAF",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Central African Republic",
+   "ru": "Центральноафриканская Республика"
+  },
+  "capital": {
+   "en": [
+    "Bangui"
+   ],
+   "ru": [
+    "Банги"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Central African Republic",
+    "République centrafricaine"
+   ],
+   "ru": [
+    "Центрально-Африканская Республика"
+   ]
+  },
+  "latlng": [
+   7,
+   21
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CAN",
+  "region": "Americas",
+  "subregion": "North America",
+  "sovereign": true,
+  "name": {
+   "en": "Canada",
+   "ru": "Канада"
+  },
+  "capital": {
+   "en": [
+    "Ottawa"
+   ],
+   "ru": [
+    "Оттава"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Canada"
+   ],
+   "ru": [
+    "Канада"
+   ]
+  },
+  "latlng": [
+   60,
+   -95
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CCK",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "sovereign": false,
+  "name": {
+   "en": "Cocos (Keeling) Islands",
+   "ru": "Кокосовые острова"
+  },
+  "capital": {
+   "en": [
+    "West Island"
+   ],
+   "ru": [
+    "Уэст-Айленд"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Territory of the Cocos (Keeling) Islands",
+    "Keeling Islands",
+    "Cocos Islands"
+   ],
+   "ru": [
+    "Территория Кокосовые (Килинг) острова"
+   ]
+  },
+  "latlng": [
+   -12.5,
+   96.83333333
+  ],
+  "hasShape": false,
+  "flagShared": false
+ },
+ {
+  "code": "CHE",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Switzerland",
+   "ru": "Швейцария"
+  },
+  "capital": {
+   "en": [
+    "Bern"
+   ],
+   "ru": [
+    "Берн"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Swiss Confederation",
+    "Schweiz",
+    "Suisse",
+    "Svizzera",
+    "Svizra"
+   ],
+   "ru": [
+    "Швейцарская Конфедерация"
+   ]
+  },
+  "latlng": [
+   47,
+   8
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CHL",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Chile",
+   "ru": "Чили"
+  },
+  "capital": {
+   "en": [
+    "Santiago"
+   ],
+   "ru": [
+    "Сантьяго"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Chile",
+    "República de Chile"
+   ],
+   "ru": [
+    "Республика Чили"
+   ]
+  },
+  "latlng": [
+   -30,
+   -71
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CHN",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "China",
+   "ru": "Китай"
+  },
+  "capital": {
+   "en": [
+    "Beijing"
+   ],
+   "ru": [
+    "Пекин"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "People's Republic of China",
+    "Zhōngguó",
+    "Zhongguo",
+    "Zhonghua",
+    "Zhōnghuá Rénmín Gònghéguó"
+   ],
+   "ru": [
+    "Народная Республика Китай"
+   ]
+  },
+  "latlng": [
+   35,
+   105
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CIV",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Ivory Coast",
+   "ru": "Кот-д’Ивуар"
+  },
+  "capital": {
+   "en": [
+    "Yamoussoukro"
+   ],
+   "ru": [
+    "Ямусукро"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Côte d'Ivoire",
+    "Côte d'Ivoire",
+    "Cote d'Ivoire",
+    "Ivory Coast",
+    "République de Côte d'Ivoire"
+   ],
+   "ru": [
+    "Республика Кот-д'Ивуаре"
+   ]
+  },
+  "latlng": [
+   8,
+   -5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CMR",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Cameroon",
+   "ru": "Камерун"
+  },
+  "capital": {
+   "en": [
+    "Yaoundé"
+   ],
+   "ru": [
+    "Яунде"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Cameroon",
+    "République du Cameroun"
+   ],
+   "ru": [
+    "Республика Камерун"
+   ]
+  },
+  "latlng": [
+   6,
+   12
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "COD",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "sovereign": true,
+  "name": {
+   "en": "DR Congo",
+   "ru": "Демократическая Республика Конго"
+  },
+  "capital": {
+   "en": [
+    "Kinshasa"
+   ],
+   "ru": [
+    "Киншаса"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Democratic Republic of the Congo",
+    "DR Congo",
+    "Congo-Kinshasa",
+    "Congo, the Democratic Republic of the",
+    "Democratic Republic of Congo",
+    "DRC"
+   ],
+   "ru": [
+    "Демократическая Республика Конго"
+   ]
+  },
+  "latlng": [
+   0,
+   25
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "COG",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Republic of the Congo",
+   "ru": "Республика Конго"
+  },
+  "capital": {
+   "en": [
+    "Brazzaville"
+   ],
+   "ru": [
+    "Браззавиль"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of the Congo",
+    "Congo",
+    "Congo-Brazzaville"
+   ],
+   "ru": [
+    "Республика Конго"
+   ]
+  },
+  "latlng": [
+   -1,
+   15
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "COK",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "sovereign": false,
+  "name": {
+   "en": "Cook Islands",
+   "ru": "Острова Кука"
+  },
+  "capital": {
+   "en": [
+    "Avarua"
+   ],
+   "ru": [
+    "Аваруа"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Cook Islands",
+    "Kūki 'Āirani"
+   ],
+   "ru": [
+    "острова Кука"
+   ]
+  },
+  "latlng": [
+   -21.23333333,
+   -159.76666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "COL",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Colombia",
+   "ru": "Колумбия"
+  },
+  "capital": {
+   "en": [
+    "Bogotá"
+   ],
+   "ru": [
+    "Богота"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Colombia",
+    "República de Colombia"
+   ],
+   "ru": [
+    "Республика Колумбия"
+   ]
+  },
+  "latlng": [
+   4,
+   -72
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "COM",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Comoros",
+   "ru": "Коморы"
+  },
+  "capital": {
+   "en": [
+    "Moroni"
+   ],
+   "ru": [
+    "Морони"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Union of the Comoros",
+    "Union des Comores",
+    "Udzima wa Komori",
+    "al-Ittiḥād al-Qumurī"
+   ],
+   "ru": [
+    "Союз Коморских Островов"
+   ]
+  },
+  "latlng": [
+   -12.16666666,
+   44.25
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CPV",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Cape Verde",
+   "ru": "Кабо-Верде"
+  },
+  "capital": {
+   "en": [
+    "Praia"
+   ],
+   "ru": [
+    "Прая"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Cabo Verde",
+    "República de Cabo Verde"
+   ],
+   "ru": [
+    "Республика Кабо -Верде"
+   ]
+  },
+  "latlng": [
+   16,
+   -24
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CRI",
+  "region": "Americas",
+  "subregion": "Central America",
+  "sovereign": true,
+  "name": {
+   "en": "Costa Rica",
+   "ru": "Коста-Рика"
+  },
+  "capital": {
+   "en": [
+    "San José"
+   ],
+   "ru": [
+    "Сан-Хосе"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Costa Rica",
+    "República de Costa Rica"
+   ],
+   "ru": [
+    "Республика Коста-Рика"
+   ]
+  },
+  "latlng": [
+   10,
+   -84
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CUB",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Cuba",
+   "ru": "Куба"
+  },
+  "capital": {
+   "en": [
+    "Havana"
+   ],
+   "ru": [
+    "Гавана"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Cuba",
+    "República de Cuba"
+   ],
+   "ru": [
+    "Республика Куба"
+   ]
+  },
+  "latlng": [
+   21.5,
+   -80
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CUW",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Curaçao",
+   "ru": "Кюрасао"
+  },
+  "capital": {
+   "en": [
+    "Willemstad"
+   ],
+   "ru": [
+    "Виллемстад"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Country of Curaçao",
+    "Curacao",
+    "Kòrsou",
+    "Land Curaçao",
+    "Pais Kòrsou"
+   ],
+   "ru": [
+    "Страна Кюрасао"
+   ]
+  },
+  "latlng": [
+   12.116667,
+   -68.933333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CXR",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "sovereign": false,
+  "name": {
+   "en": "Christmas Island",
+   "ru": "Остров Рождества"
+  },
+  "capital": {
+   "en": [
+    "Flying Fish Cove"
+   ],
+   "ru": [
+    "Флайинг-Фиш-Коув"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Territory of Christmas Island"
+   ],
+   "ru": [
+    "Территория острова Рождества"
+   ]
+  },
+  "latlng": [
+   -10.5,
+   105.66666666
+  ],
+  "hasShape": false,
+  "flagShared": false
+ },
+ {
+  "code": "CYM",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Cayman Islands",
+   "ru": "Каймановы острова"
+  },
+  "capital": {
+   "en": [
+    "George Town"
+   ],
+   "ru": [
+    "Джорджтаун"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Cayman Islands"
+   ],
+   "ru": [
+    "Каймановы острова"
+   ]
+  },
+  "latlng": [
+   19.5,
+   -80.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CYP",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Cyprus",
+   "ru": "Кипр"
+  },
+  "capital": {
+   "en": [
+    "Nicosia"
+   ],
+   "ru": [
+    "Никосия"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Cyprus",
+    "Kýpros",
+    "Kıbrıs",
+    "Kıbrıs Cumhuriyeti"
+   ],
+   "ru": [
+    "Республика Кипр"
+   ]
+  },
+  "latlng": [
+   35,
+   33
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "CZE",
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Czechia",
+   "ru": "Чехия"
+  },
+  "capital": {
+   "en": [
+    "Prague"
+   ],
+   "ru": [
+    "Прага"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Czech Republic",
+    "Česká republika",
+    "Česko"
+   ],
+   "ru": [
+    "Чешская Республика"
+   ]
+  },
+  "latlng": [
+   49.75,
+   15.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "DEU",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Germany",
+   "ru": "Германия"
+  },
+  "capital": {
+   "en": [
+    "Berlin"
+   ],
+   "ru": [
+    "Берлин"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Federal Republic of Germany",
+    "Bundesrepublik Deutschland"
+   ],
+   "ru": [
+    "Федеративная Республика Германия"
+   ]
+  },
+  "latlng": [
+   51,
+   9
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "DJI",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Djibouti",
+   "ru": "Джибути"
+  },
+  "capital": {
+   "en": [
+    "Djibouti"
+   ],
+   "ru": [
+    "Джибути"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Djibouti",
+    "Jabuuti",
+    "Gabuuti",
+    "République de Djibouti",
+    "Gabuutih Ummuuno",
+    "Jamhuuriyadda Jabuuti"
+   ],
+   "ru": [
+    "Республика Джибути"
+   ]
+  },
+  "latlng": [
+   11.5,
+   43
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "DMA",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Dominica",
+   "ru": "Доминика"
+  },
+  "capital": {
+   "en": [
+    "Roseau"
+   ],
+   "ru": [
+    "Розо"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Commonwealth of Dominica",
+    "Dominique"
+   ],
+   "ru": [
+    "Содружество Доминики"
+   ]
+  },
+  "latlng": [
+   15.41666666,
+   -61.33333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "DNK",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Denmark",
+   "ru": "Дания"
+  },
+  "capital": {
+   "en": [
+    "Copenhagen"
+   ],
+   "ru": [
+    "Копенгаген"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Denmark",
+    "Danmark",
+    "Kongeriget Danmark"
+   ],
+   "ru": [
+    "Королевство Дания"
+   ]
+  },
+  "latlng": [
+   56,
+   10
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "DOM",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Dominican Republic",
+   "ru": "Доминиканская Республика"
+  },
+  "capital": {
+   "en": [
+    "Santo Domingo"
+   ],
+   "ru": [
+    "Санто-Доминго"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Dominican Republic"
+   ],
+   "ru": [
+    "Доминиканская Республика"
+   ]
+  },
+  "latlng": [
+   19,
+   -70.66666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "DZA",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Algeria",
+   "ru": "Алжир"
+  },
+  "capital": {
+   "en": [
+    "Algiers"
+   ],
+   "ru": [
+    "Алжир"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "People's Democratic Republic of Algeria",
+    "Dzayer",
+    "Algérie"
+   ],
+   "ru": [
+    "Народно-Демократическая Республика Алжир"
+   ]
+  },
+  "latlng": [
+   28,
+   3
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ECU",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Ecuador",
+   "ru": "Эквадор"
+  },
+  "capital": {
+   "en": [
+    "Quito"
+   ],
+   "ru": [
+    "Кито"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Ecuador",
+    "República del Ecuador"
+   ],
+   "ru": [
+    "Республика Эквадор"
+   ]
+  },
+  "latlng": [
+   -2,
+   -77.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "EGY",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Egypt",
+   "ru": "Египет"
+  },
+  "capital": {
+   "en": [
+    "Cairo"
+   ],
+   "ru": [
+    "Каир"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Arab Republic of Egypt"
+   ],
+   "ru": [
+    "Арабская Республика Египет"
+   ]
+  },
+  "latlng": [
+   27,
+   30
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ERI",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Eritrea",
+   "ru": "Эритрея"
+  },
+  "capital": {
+   "en": [
+    "Asmara"
+   ],
+   "ru": [
+    "Асмэра"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "State of Eritrea",
+    "Dawlat Iritriyá",
+    "Iritriyā"
+   ],
+   "ru": [
+    "Государство Эритрея"
+   ]
+  },
+  "latlng": [
+   15,
+   39
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ESH",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "sovereign": false,
+  "name": {
+   "en": "Western Sahara",
+   "ru": "Западная Сахара"
+  },
+  "capital": {
+   "en": [
+    "El Aaiún"
+   ],
+   "ru": [
+    "Эль-Аюн"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Sahrawi Arab Democratic Republic",
+    "Taneẓroft Tutrimt"
+   ],
+   "ru": [
+    "Sahrawi Арабская Демократическая Республика"
+   ]
+  },
+  "latlng": [
+   24.5,
+   -13
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ESP",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Spain",
+   "ru": "Испания"
+  },
+  "capital": {
+   "en": [
+    "Madrid"
+   ],
+   "ru": [
+    "Мадрид"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Spain",
+    "Reino de España"
+   ],
+   "ru": [
+    "Королевство Испания"
+   ]
+  },
+  "latlng": [
+   40,
+   -4
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "EST",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Estonia",
+   "ru": "Эстония"
+  },
+  "capital": {
+   "en": [
+    "Tallinn"
+   ],
+   "ru": [
+    "Таллин"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Estonia",
+    "Eesti",
+    "Eesti Vabariik"
+   ],
+   "ru": [
+    "Эстонская Республика"
+   ]
+  },
+  "latlng": [
+   59,
+   26
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ETH",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Ethiopia",
+   "ru": "Эфиопия"
+  },
+  "capital": {
+   "en": [
+    "Addis Ababa"
+   ],
+   "ru": [
+    "Аддис-Абеба"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Federal Democratic Republic of Ethiopia"
+   ],
+   "ru": [
+    "Федеративная Демократическая Республика Эфиопия"
+   ]
+  },
+  "latlng": [
+   8,
+   38
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "FIN",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Finland",
+   "ru": "Финляндия"
+  },
+  "capital": {
+   "en": [
+    "Helsinki"
+   ],
+   "ru": [
+    "Хельсинки"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Finland",
+    "Suomi",
+    "Suomen tasavalta",
+    "Republiken Finland"
+   ],
+   "ru": [
+    "Финляндская Республика"
+   ]
+  },
+  "latlng": [
+   64,
+   26
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "FJI",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "sovereign": true,
+  "name": {
+   "en": "Fiji",
+   "ru": "Фиджи"
+  },
+  "capital": {
+   "en": [
+    "Suva"
+   ],
+   "ru": [
+    "Сува"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Fiji",
+    "Viti",
+    "Matanitu ko Viti",
+    "Fijī Gaṇarājya"
+   ],
+   "ru": [
+    "Республика Фиджи"
+   ]
+  },
+  "latlng": [
+   -18,
+   175
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "FLK",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": false,
+  "name": {
+   "en": "Falkland Islands",
+   "ru": "Фолклендские острова"
+  },
+  "capital": {
+   "en": [
+    "Stanley"
+   ],
+   "ru": [
+    "Стэнли"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Falkland Islands",
+    "Islas Malvinas",
+    "Falkland Islands (Malvinas)"
+   ],
+   "ru": [
+    "Фолклендские острова"
+   ]
+  },
+  "latlng": [
+   -51.75,
+   -59
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "FRA",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "sovereign": true,
+  "name": {
+   "en": "France",
+   "ru": "Франция"
+  },
+  "capital": {
+   "en": [
+    "Paris"
+   ],
+   "ru": [
+    "Париж"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "French Republic",
+    "République française"
+   ],
+   "ru": [
+    "Французская Республика"
+   ]
+  },
+  "latlng": [
+   46,
+   2
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "FRO",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": false,
+  "name": {
+   "en": "Faroe Islands",
+   "ru": "Фарерские острова"
+  },
+  "capital": {
+   "en": [
+    "Tórshavn"
+   ],
+   "ru": [
+    "Торсхавн"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Faroe Islands",
+    "Føroyar",
+    "Færøerne",
+    "Faeroe Islands"
+   ],
+   "ru": [
+    "Фарерские острова"
+   ]
+  },
+  "latlng": [
+   62,
+   -7
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "FSM",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "sovereign": true,
+  "name": {
+   "en": "Micronesia",
+   "ru": "Федеративные Штаты Микронезии"
+  },
+  "capital": {
+   "en": [
+    "Palikir"
+   ],
+   "ru": [
+    "Паликир"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Federated States of Micronesia",
+    "Micronesia, Federated States of"
+   ],
+   "ru": [
+    "Федеративные Штаты Микронезии"
+   ]
+  },
+  "latlng": [
+   6.91666666,
+   158.25
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GAB",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Gabon",
+   "ru": "Габон"
+  },
+  "capital": {
+   "en": [
+    "Libreville"
+   ],
+   "ru": [
+    "Либревиль"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Gabonese Republic",
+    "République Gabonaise"
+   ],
+   "ru": [
+    "Габона Республика"
+   ]
+  },
+  "latlng": [
+   -1,
+   11.75
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GBR",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "United Kingdom",
+   "ru": "Великобритания"
+  },
+  "capital": {
+   "en": [
+    "London"
+   ],
+   "ru": [
+    "Лондон"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "United Kingdom of Great Britain and Northern Ireland",
+    "Great Britain"
+   ],
+   "ru": [
+    "Соединенное Королевство Великобритании и Северной Ирландии"
+   ]
+  },
+  "latlng": [
+   54,
+   -2
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GEO",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Georgia",
+   "ru": "Грузия"
+  },
+  "capital": {
+   "en": [
+    "Tbilisi"
+   ],
+   "ru": [
+    "Тбилиси"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Georgia",
+    "Sakartvelo"
+   ],
+   "ru": [
+    "Грузия"
+   ]
+  },
+  "latlng": [
+   42,
+   43.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GGY",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": false,
+  "name": {
+   "en": "Guernsey",
+   "ru": "Гернси"
+  },
+  "capital": {
+   "en": [
+    "St. Peter Port"
+   ],
+   "ru": [
+    "Сент-Питер-Порт"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Bailiwick of Guernsey",
+    "Bailliage de Guernesey"
+   ],
+   "ru": [
+    "Коронное владение Гернси"
+   ]
+  },
+  "latlng": [
+   49.46666666,
+   -2.58333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GHA",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Ghana",
+   "ru": "Гана"
+  },
+  "capital": {
+   "en": [
+    "Accra"
+   ],
+   "ru": [
+    "Аккра"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Ghana"
+   ],
+   "ru": [
+    "Республика Гана"
+   ]
+  },
+  "latlng": [
+   8,
+   -2
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GIB",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "sovereign": false,
+  "name": {
+   "en": "Gibraltar",
+   "ru": "Гибралтар"
+  },
+  "capital": {
+   "en": [
+    "Gibraltar"
+   ],
+   "ru": [
+    "Гибралтар"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Gibraltar"
+   ],
+   "ru": [
+    "Гибралтар"
+   ]
+  },
+  "latlng": [
+   36.13333333,
+   -5.35
+  ],
+  "hasShape": false,
+  "flagShared": false
+ },
+ {
+  "code": "GIN",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Guinea",
+   "ru": "Гвинея"
+  },
+  "capital": {
+   "en": [
+    "Conakry"
+   ],
+   "ru": [
+    "Конакри"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Guinea",
+    "République de Guinée"
+   ],
+   "ru": [
+    "Республика Гвинея"
+   ]
+  },
+  "latlng": [
+   11,
+   -10
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GLP",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Guadeloupe",
+   "ru": "Гваделупа"
+  },
+  "capital": {
+   "en": [
+    "Basse-Terre"
+   ],
+   "ru": [
+    "Бас-Тер"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Guadeloupe",
+    "Gwadloup"
+   ],
+   "ru": [
+    "Гваделупа"
+   ]
+  },
+  "latlng": [
+   16.25,
+   -61.583333
+  ],
+  "hasShape": false,
+  "flagShared": true
+ },
+ {
+  "code": "GMB",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Gambia",
+   "ru": "Гамбия"
+  },
+  "capital": {
+   "en": [
+    "Banjul"
+   ],
+   "ru": [
+    "Банжул"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of the Gambia"
+   ],
+   "ru": [
+    "Республика Гамбия"
+   ]
+  },
+  "latlng": [
+   13.46666666,
+   -16.56666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GNB",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Guinea-Bissau",
+   "ru": "Гвинея-Бисау"
+  },
+  "capital": {
+   "en": [
+    "Bissau"
+   ],
+   "ru": [
+    "Бисау"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Guinea-Bissau",
+    "República da Guiné-Bissau"
+   ],
+   "ru": [
+    "Республика Гвинея -Бисау"
+   ]
+  },
+  "latlng": [
+   12,
+   -15
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GNQ",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Equatorial Guinea",
+   "ru": "Экваториальная Гвинея"
+  },
+  "capital": {
+   "en": [
+    "Malabo"
+   ],
+   "ru": [
+    "Малабо"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Equatorial Guinea",
+    "República de Guinea Ecuatorial",
+    "République de Guinée équatoriale",
+    "República da Guiné Equatorial"
+   ],
+   "ru": [
+    "Республика Экваториальная Гвинея"
+   ]
+  },
+  "latlng": [
+   2,
+   10
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GRC",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Greece",
+   "ru": "Греция"
+  },
+  "capital": {
+   "en": [
+    "Athens"
+   ],
+   "ru": [
+    "Афины"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Hellenic Republic",
+    "Elláda"
+   ],
+   "ru": [
+    "Греческая Республика"
+   ]
+  },
+  "latlng": [
+   39,
+   22
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GRD",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Grenada",
+   "ru": "Гренада"
+  },
+  "capital": {
+   "en": [
+    "St. George's"
+   ],
+   "ru": [
+    "Сент-Джорджес"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Grenada"
+   ],
+   "ru": [
+    "Гренада"
+   ]
+  },
+  "latlng": [
+   12.11666666,
+   -61.66666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GRL",
+  "region": "Americas",
+  "subregion": "North America",
+  "sovereign": false,
+  "name": {
+   "en": "Greenland",
+   "ru": "Гренландия"
+  },
+  "capital": {
+   "en": [
+    "Nuuk"
+   ],
+   "ru": [
+    "Нуук"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Greenland",
+    "Grønland"
+   ],
+   "ru": [
+    "Гренландия"
+   ]
+  },
+  "latlng": [
+   72,
+   -40
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GTM",
+  "region": "Americas",
+  "subregion": "Central America",
+  "sovereign": true,
+  "name": {
+   "en": "Guatemala",
+   "ru": "Гватемала"
+  },
+  "capital": {
+   "en": [
+    "Guatemala City"
+   ],
+   "ru": [
+    "Гватемала"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Guatemala"
+   ],
+   "ru": [
+    "Республика Гватемала"
+   ]
+  },
+  "latlng": [
+   15.5,
+   -90.25
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GUF",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": false,
+  "name": {
+   "en": "French Guiana",
+   "ru": "Французская Гвиана"
+  },
+  "capital": {
+   "en": [
+    "Cayenne"
+   ],
+   "ru": [
+    "Кайенна"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Guiana",
+    "Guyane"
+   ],
+   "ru": [
+    "Гвиана"
+   ]
+  },
+  "latlng": [
+   4,
+   -53
+  ],
+  "hasShape": false,
+  "flagShared": true
+ },
+ {
+  "code": "GUM",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "sovereign": false,
+  "name": {
+   "en": "Guam",
+   "ru": "Гуам"
+  },
+  "capital": {
+   "en": [
+    "Hagåtña"
+   ],
+   "ru": [
+    "Хагатна"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Guam",
+    "Guåhån"
+   ],
+   "ru": [
+    "Гуам"
+   ]
+  },
+  "latlng": [
+   13.46666666,
+   144.78333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "GUY",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Guyana",
+   "ru": "Гайана"
+  },
+  "capital": {
+   "en": [
+    "Georgetown"
+   ],
+   "ru": [
+    "Джорджтаун"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Co-operative Republic of Guyana"
+   ],
+   "ru": [
+    "Кооперативная Республика Гайана"
+   ]
+  },
+  "latlng": [
+   5,
+   -59
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "HKG",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "sovereign": false,
+  "name": {
+   "en": "Hong Kong",
+   "ru": "Гонконг"
+  },
+  "capital": {
+   "en": [
+    "City of Victoria"
+   ],
+   "ru": [
+    "Виктория"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Hong Kong Special Administrative Region of the People's Republic of China"
+   ],
+   "ru": [
+    "Hong Kong Специальный административный район Китайской Народной Республики Китая"
+   ]
+  },
+  "latlng": [
+   22.267,
+   114.188
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "HMD",
+  "region": "Antarctic",
+  "subregion": "",
+  "sovereign": false,
+  "name": {
+   "en": "Heard Island and McDonald Islands",
+   "ru": "Остров Херд и острова Макдональд"
+  },
+  "capital": {
+   "en": [],
+   "ru": []
+  },
+  "aliases": {
+   "en": [
+    "Heard Island and McDonald Islands"
+   ],
+   "ru": [
+    "Остров Херд и острова Макдональд"
+   ]
+  },
+  "latlng": [
+   -53.1,
+   72.51666666
+  ],
+  "hasShape": true,
+  "flagShared": true
+ },
+ {
+  "code": "HND",
+  "region": "Americas",
+  "subregion": "Central America",
+  "sovereign": true,
+  "name": {
+   "en": "Honduras",
+   "ru": "Гондурас"
+  },
+  "capital": {
+   "en": [
+    "Tegucigalpa"
+   ],
+   "ru": [
+    "Тегусигальпа"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Honduras",
+    "República de Honduras"
+   ],
+   "ru": [
+    "Республика Гондурас"
+   ]
+  },
+  "latlng": [
+   15,
+   -86.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "HRV",
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Croatia",
+   "ru": "Хорватия"
+  },
+  "capital": {
+   "en": [
+    "Zagreb"
+   ],
+   "ru": [
+    "Загреб"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Croatia",
+    "Hrvatska",
+    "Republika Hrvatska"
+   ],
+   "ru": [
+    "Республика Хорватия"
+   ]
+  },
+  "latlng": [
+   45.16666666,
+   15.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "HTI",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Haiti",
+   "ru": "Гаити"
+  },
+  "capital": {
+   "en": [
+    "Port-au-Prince"
+   ],
+   "ru": [
+    "Порт-о-Пренс"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Haiti",
+    "République d'Haïti",
+    "Repiblik Ayiti"
+   ],
+   "ru": [
+    "Республика Гаити"
+   ]
+  },
+  "latlng": [
+   19,
+   -72.41666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "HUN",
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Hungary",
+   "ru": "Венгрия"
+  },
+  "capital": {
+   "en": [
+    "Budapest"
+   ],
+   "ru": [
+    "Будапешт"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Hungary"
+   ],
+   "ru": [
+    "Венгрия"
+   ]
+  },
+  "latlng": [
+   47,
+   20
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "IDN",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Indonesia",
+   "ru": "Индонезия"
+  },
+  "capital": {
+   "en": [
+    "Jakarta"
+   ],
+   "ru": [
+    "Джакарта"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Indonesia",
+    "Republik Indonesia"
+   ],
+   "ru": [
+    "Республика Индонезия"
+   ]
+  },
+  "latlng": [
+   -5,
+   120
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "IMN",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": false,
+  "name": {
+   "en": "Isle of Man",
+   "ru": "Остров Мэн"
+  },
+  "capital": {
+   "en": [
+    "Douglas"
+   ],
+   "ru": [
+    "Дуглас"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Isle of Man",
+    "Ellan Vannin",
+    "Mann",
+    "Mannin"
+   ],
+   "ru": [
+    "Остров Мэн"
+   ]
+  },
+  "latlng": [
+   54.25,
+   -4.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "IND",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "India",
+   "ru": "Индия"
+  },
+  "capital": {
+   "en": [
+    "New Delhi"
+   ],
+   "ru": [
+    "Нью-Дели"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of India",
+    "Bhārat",
+    "Bharat Ganrajya"
+   ],
+   "ru": [
+    "Республика Индия"
+   ]
+  },
+  "latlng": [
+   20,
+   77
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "IOT",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": false,
+  "name": {
+   "en": "British Indian Ocean Territory",
+   "ru": "Британская территория в Индийском океане"
+  },
+  "capital": {
+   "en": [
+    "Diego Garcia"
+   ],
+   "ru": [
+    "Диего-Гарсия"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "British Indian Ocean Territory"
+   ],
+   "ru": [
+    "Британская территория Индийского океана"
+   ]
+  },
+  "latlng": [
+   -6,
+   71.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "IRL",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Ireland",
+   "ru": "Ирландия"
+  },
+  "capital": {
+   "en": [
+    "Dublin"
+   ],
+   "ru": [
+    "Дублин"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Ireland",
+    "Éire",
+    "Poblacht na hÉireann"
+   ],
+   "ru": [
+    "Ирландия"
+   ]
+  },
+  "latlng": [
+   53,
+   -8
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "IRN",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Iran",
+   "ru": "Иран"
+  },
+  "capital": {
+   "en": [
+    "Tehran"
+   ],
+   "ru": [
+    "Тегеран"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Islamic Republic of Iran",
+    "Iran, Islamic Republic of",
+    "Jomhuri-ye Eslāmi-ye Irān"
+   ],
+   "ru": [
+    "Исламская Республика Иран"
+   ]
+  },
+  "latlng": [
+   32,
+   53
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "IRQ",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Iraq",
+   "ru": "Ирак"
+  },
+  "capital": {
+   "en": [
+    "Baghdad"
+   ],
+   "ru": [
+    "Багдад"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Iraq"
+   ],
+   "ru": [
+    "Республика Ирак"
+   ]
+  },
+  "latlng": [
+   33,
+   44
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ISL",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Iceland",
+   "ru": "Исландия"
+  },
+  "capital": {
+   "en": [
+    "Reykjavik"
+   ],
+   "ru": [
+    "Рейкьявик"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Iceland",
+    "Island",
+    "Republic of Iceland",
+    "Lýðveldið Ísland"
+   ],
+   "ru": [
+    "Исландия"
+   ]
+  },
+  "latlng": [
+   65,
+   -18
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ISR",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Israel",
+   "ru": "Израиль"
+  },
+  "capital": {
+   "en": [
+    "Jerusalem"
+   ],
+   "ru": [
+    "Иерусалим"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "State of Israel",
+    "Medīnat Yisrā'el"
+   ],
+   "ru": [
+    "Государство Израиль"
+   ]
+  },
+  "latlng": [
+   31.47,
+   35.13
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ITA",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Italy",
+   "ru": "Италия"
+  },
+  "capital": {
+   "en": [
+    "Rome"
+   ],
+   "ru": [
+    "Рим"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Italian Republic",
+    "Repubblica italiana"
+   ],
+   "ru": [
+    "итальянская Республика"
+   ]
+  },
+  "latlng": [
+   42.83333333,
+   12.83333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "JAM",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Jamaica",
+   "ru": "Ямайка"
+  },
+  "capital": {
+   "en": [
+    "Kingston"
+   ],
+   "ru": [
+    "Кингстон"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Jamaica"
+   ],
+   "ru": [
+    "Ямайка"
+   ]
+  },
+  "latlng": [
+   18.25,
+   -77.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "JEY",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": false,
+  "name": {
+   "en": "Jersey",
+   "ru": "Джерси"
+  },
+  "capital": {
+   "en": [
+    "Saint Helier"
+   ],
+   "ru": [
+    "Сент-Хелиер"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Bailiwick of Jersey",
+    "Bailliage de Jersey",
+    "Bailliage dé Jèrri"
+   ],
+   "ru": [
+    "Коронное владение Джерси"
+   ]
+  },
+  "latlng": [
+   49.25,
+   -2.16666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "JOR",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Jordan",
+   "ru": "Иордания"
+  },
+  "capital": {
+   "en": [
+    "Amman"
+   ],
+   "ru": [
+    "Амман"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Hashemite Kingdom of Jordan",
+    "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+   ],
+   "ru": [
+    "Иорданского Хашимитского Королевства"
+   ]
+  },
+  "latlng": [
+   31,
+   36
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "JPN",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Japan",
+   "ru": "Япония"
+  },
+  "capital": {
+   "en": [
+    "Tokyo"
+   ],
+   "ru": [
+    "Токио"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Japan",
+    "Nippon",
+    "Nihon"
+   ],
+   "ru": [
+    "Япония"
+   ]
+  },
+  "latlng": [
+   36,
+   138
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "KAZ",
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Kazakhstan",
+   "ru": "Казахстан"
+  },
+  "capital": {
+   "en": [
+    "Astana"
+   ],
+   "ru": [
+    "Астана"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Kazakhstan",
+    "Qazaqstan",
+    "Qazaqstan Respublïkası",
+    "Respublika Kazakhstan"
+   ],
+   "ru": [
+    "Республика Казахстан"
+   ]
+  },
+  "latlng": [
+   48,
+   68
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "KEN",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Kenya",
+   "ru": "Кения"
+  },
+  "capital": {
+   "en": [
+    "Nairobi"
+   ],
+   "ru": [
+    "Найроби"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Kenya",
+    "Jamhuri ya Kenya"
+   ],
+   "ru": [
+    "Республика Кения"
+   ]
+  },
+  "latlng": [
+   1,
+   38
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "KGZ",
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Kyrgyzstan",
+   "ru": "Киргизия"
+  },
+  "capital": {
+   "en": [
+    "Bishkek"
+   ],
+   "ru": [
+    "Бишкек"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kyrgyz Republic",
+    "Kyrgyz Respublikasy"
+   ],
+   "ru": [
+    "Кыргызская Республика"
+   ]
+  },
+  "latlng": [
+   41,
+   75
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "KHM",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Cambodia",
+   "ru": "Камбоджа"
+  },
+  "capital": {
+   "en": [
+    "Phnom Penh"
+   ],
+   "ru": [
+    "Пномпень"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Cambodia"
+   ],
+   "ru": [
+    "Королевство Камбоджа"
+   ]
+  },
+  "latlng": [
+   13,
+   105
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "KIR",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "sovereign": true,
+  "name": {
+   "en": "Kiribati",
+   "ru": "Кирибати"
+  },
+  "capital": {
+   "en": [
+    "South Tarawa"
+   ],
+   "ru": [
+    "Южная Тарава",
+    "Тарава"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Independent and Sovereign Republic of Kiribati",
+    "Republic of Kiribati",
+    "Ribaberiki Kiribati"
+   ],
+   "ru": [
+    "Независимой и суверенной Республики Кирибати"
+   ]
+  },
+  "latlng": [
+   1.41666666,
+   173
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "KNA",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Saint Kitts and Nevis",
+   "ru": "Сент-Китс и Невис"
+  },
+  "capital": {
+   "en": [
+    "Basseterre"
+   ],
+   "ru": [
+    "Бастер"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Federation of Saint Christopher and Nevis"
+   ],
+   "ru": [
+    "Федерация Сент-Кристофер и Н е в и с"
+   ]
+  },
+  "latlng": [
+   17.33333333,
+   -62.75
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "KOR",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "South Korea",
+   "ru": "Южная Корея"
+  },
+  "capital": {
+   "en": [
+    "Seoul"
+   ],
+   "ru": [
+    "Сеул"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Korea",
+    "Korea, Republic of"
+   ],
+   "ru": [
+    "Республика Корея"
+   ]
+  },
+  "latlng": [
+   37,
+   127.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "UNK",
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "sovereign": false,
+  "name": {
+   "en": "Kosovo",
+   "ru": "Республика Косово"
+  },
+  "capital": {
+   "en": [
+    "Pristina"
+   ],
+   "ru": [
+    "Приштина"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Kosovo"
+   ],
+   "ru": [
+    "Республика Косово"
+   ]
+  },
+  "latlng": [
+   42.666667,
+   21.166667
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "KWT",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Kuwait",
+   "ru": "Кувейт"
+  },
+  "capital": {
+   "en": [
+    "Kuwait City"
+   ],
+   "ru": [
+    "Эль-Кувейт",
+    "Кувейт"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "State of Kuwait",
+    "Dawlat al-Kuwait"
+   ],
+   "ru": [
+    "Государство Кувейт"
+   ]
+  },
+  "latlng": [
+   29.5,
+   45.75
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LAO",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Laos",
+   "ru": "Лаос"
+  },
+  "capital": {
+   "en": [
+    "Vientiane"
+   ],
+   "ru": [
+    "Вьентьян"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Lao People's Democratic Republic",
+    "Lao",
+    "Sathalanalat Paxathipatai Paxaxon Lao"
+   ],
+   "ru": [
+    "Лаосская Народно-Демократическая Республика"
+   ]
+  },
+  "latlng": [
+   18,
+   105
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LBN",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Lebanon",
+   "ru": "Ливан"
+  },
+  "capital": {
+   "en": [
+    "Beirut"
+   ],
+   "ru": [
+    "Бейрут"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Lebanese Republic",
+    "Al-Jumhūrīyah Al-Libnānīyah"
+   ],
+   "ru": [
+    "Ливанская Республика"
+   ]
+  },
+  "latlng": [
+   33.83333333,
+   35.83333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LBR",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Liberia",
+   "ru": "Либерия"
+  },
+  "capital": {
+   "en": [
+    "Monrovia"
+   ],
+   "ru": [
+    "Монровия"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Liberia"
+   ],
+   "ru": [
+    "Республика Либерия"
+   ]
+  },
+  "latlng": [
+   6.5,
+   -9.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LBY",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Libya",
+   "ru": "Ливия"
+  },
+  "capital": {
+   "en": [
+    "Tripoli"
+   ],
+   "ru": [
+    "Триполи"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "State of Libya",
+    "Dawlat Libya"
+   ],
+   "ru": [
+    "Государство Ливии"
+   ]
+  },
+  "latlng": [
+   25,
+   17
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LCA",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Saint Lucia",
+   "ru": "Сент-Люсия"
+  },
+  "capital": {
+   "en": [
+    "Castries"
+   ],
+   "ru": [
+    "Кастри"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Saint Lucia"
+   ],
+   "ru": [
+    "Сент-Люсия"
+   ]
+  },
+  "latlng": [
+   13.88333333,
+   -60.96666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LIE",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Liechtenstein",
+   "ru": "Лихтенштейн"
+  },
+  "capital": {
+   "en": [
+    "Vaduz"
+   ],
+   "ru": [
+    "Вадуц"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Principality of Liechtenstein",
+    "Fürstentum Liechtenstein"
+   ],
+   "ru": [
+    "Княжество Лихтенштейн"
+   ]
+  },
+  "latlng": [
+   47.26666666,
+   9.53333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LKA",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Sri Lanka",
+   "ru": "Шри-Ланка"
+  },
+  "capital": {
+   "en": [
+    "Colombo"
+   ],
+   "ru": [
+    "Коломбо",
+    "Шри-Джаяварденепура-Котте"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Democratic Socialist Republic of Sri Lanka",
+    "ilaṅkai"
+   ],
+   "ru": [
+    "Демократическая Социалистическая Республика Шри-Ланка"
+   ]
+  },
+  "latlng": [
+   7,
+   81
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LSO",
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Lesotho",
+   "ru": "Лесото"
+  },
+  "capital": {
+   "en": [
+    "Maseru"
+   ],
+   "ru": [
+    "Масеру"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Lesotho",
+    "Muso oa Lesotho"
+   ],
+   "ru": [
+    "Королевство Лесото"
+   ]
+  },
+  "latlng": [
+   -29.5,
+   28.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LTU",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Lithuania",
+   "ru": "Литва"
+  },
+  "capital": {
+   "en": [
+    "Vilnius"
+   ],
+   "ru": [
+    "Вильнюс"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Lithuania",
+    "Lietuvos Respublika"
+   ],
+   "ru": [
+    "Литовская Республика"
+   ]
+  },
+  "latlng": [
+   56,
+   24
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LUX",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Luxembourg",
+   "ru": "Люксембург"
+  },
+  "capital": {
+   "en": [
+    "Luxembourg"
+   ],
+   "ru": [
+    "Люксембург"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Grand Duchy of Luxembourg",
+    "Grand-Duché de Luxembourg",
+    "Großherzogtum Luxemburg",
+    "Groussherzogtum Lëtzebuerg"
+   ],
+   "ru": [
+    "Великое Герцогство Люксембург"
+   ]
+  },
+  "latlng": [
+   49.75,
+   6.16666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "LVA",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Latvia",
+   "ru": "Латвия"
+  },
+  "capital": {
+   "en": [
+    "Riga"
+   ],
+   "ru": [
+    "Рига"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Latvia",
+    "Latvijas Republika"
+   ],
+   "ru": [
+    "Латвийская Республика"
+   ]
+  },
+  "latlng": [
+   57,
+   25
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MAC",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "sovereign": false,
+  "name": {
+   "en": "Macau",
+   "ru": "Макао"
+  },
+  "capital": {
+   "en": [],
+   "ru": []
+  },
+  "aliases": {
+   "en": [
+    "Macao Special Administrative Region of the People's Republic of China",
+    "Macao",
+    "Região Administrativa Especial de Macau da República Popular da China"
+   ],
+   "ru": [
+    "Специальный административный район Макао Китайской Народной Республики Китай"
+   ]
+  },
+  "latlng": [
+   22.16666666,
+   113.55
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MAF",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Saint Martin",
+   "ru": "Сен-Мартен"
+  },
+  "capital": {
+   "en": [
+    "Marigot"
+   ],
+   "ru": [
+    "Мариго"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Saint Martin",
+    "Collectivity of Saint Martin",
+    "Collectivité de Saint-Martin",
+    "Saint Martin (French part)"
+   ],
+   "ru": [
+    "Сен-Мартен"
+   ]
+  },
+  "latlng": [
+   18.08333333,
+   -63.95
+  ],
+  "hasShape": true,
+  "flagShared": true
+ },
+ {
+  "code": "MAR",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Morocco",
+   "ru": "Марокко"
+  },
+  "capital": {
+   "en": [
+    "Rabat"
+   ],
+   "ru": [
+    "Рабат"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Morocco",
+    "Al-Mamlakah al-Maġribiyah"
+   ],
+   "ru": [
+    "Королевство Марокко"
+   ]
+  },
+  "latlng": [
+   32,
+   -5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MCO",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Monaco",
+   "ru": "Монако"
+  },
+  "capital": {
+   "en": [
+    "Monaco"
+   ],
+   "ru": [
+    "Монако"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Principality of Monaco",
+    "Principauté de Monaco"
+   ],
+   "ru": [
+    "Княжество Монако"
+   ]
+  },
+  "latlng": [
+   43.73333333,
+   7.4
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MDA",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Moldova",
+   "ru": "Молдавия"
+  },
+  "capital": {
+   "en": [
+    "Chișinău"
+   ],
+   "ru": [
+    "Кишинёв"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Moldova",
+    "Moldova, Republic of",
+    "Republica Moldova"
+   ],
+   "ru": [
+    "Молдова"
+   ]
+  },
+  "latlng": [
+   47,
+   29
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MDG",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Madagascar",
+   "ru": "Мадагаскар"
+  },
+  "capital": {
+   "en": [
+    "Antananarivo"
+   ],
+   "ru": [
+    "Антананариву"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Madagascar",
+    "Repoblikan'i Madagasikara",
+    "République de Madagascar"
+   ],
+   "ru": [
+    "Республика Мадагаскар"
+   ]
+  },
+  "latlng": [
+   -20,
+   47
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MDV",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Maldives",
+   "ru": "Мальдивы"
+  },
+  "capital": {
+   "en": [
+    "Malé"
+   ],
+   "ru": [
+    "Мале"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of the Maldives",
+    "Maldive Islands",
+    "Dhivehi Raajjeyge Jumhooriyya"
+   ],
+   "ru": [
+    "Республика Мальдивы"
+   ]
+  },
+  "latlng": [
+   3.25,
+   73
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MEX",
+  "region": "Americas",
+  "subregion": "North America",
+  "sovereign": true,
+  "name": {
+   "en": "Mexico",
+   "ru": "Мексика"
+  },
+  "capital": {
+   "en": [
+    "Mexico City"
+   ],
+   "ru": [
+    "Мехико"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "United Mexican States",
+    "Mexicanos",
+    "Estados Unidos Mexicanos"
+   ],
+   "ru": [
+    "Мексиканские Соединённые Штаты"
+   ]
+  },
+  "latlng": [
+   23,
+   -102
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MHL",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "sovereign": true,
+  "name": {
+   "en": "Marshall Islands",
+   "ru": "Маршалловы Острова"
+  },
+  "capital": {
+   "en": [
+    "Majuro"
+   ],
+   "ru": [
+    "Маджуро"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of the Marshall Islands"
+   ],
+   "ru": [
+    "Республика Маршалловы острова"
+   ]
+  },
+  "latlng": [
+   9,
+   168
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MKD",
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "sovereign": true,
+  "name": {
+   "en": "North Macedonia",
+   "ru": "Северная Македония"
+  },
+  "capital": {
+   "en": [
+    "Skopje"
+   ],
+   "ru": [
+    "Скопье"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of North Macedonia",
+    "The former Yugoslav Republic of Macedonia",
+    "Macedonia, The Former Yugoslav Republic of",
+    "Macedonia"
+   ],
+   "ru": [
+    "Республика Северная Македония"
+   ]
+  },
+  "latlng": [
+   41.83333333,
+   22
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MLI",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Mali",
+   "ru": "Мали"
+  },
+  "capital": {
+   "en": [
+    "Bamako"
+   ],
+   "ru": [
+    "Бамако"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Mali",
+    "République du Mali"
+   ],
+   "ru": [
+    "Республика Мали"
+   ]
+  },
+  "latlng": [
+   17,
+   -4
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MLT",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Malta",
+   "ru": "Мальта"
+  },
+  "capital": {
+   "en": [
+    "Valletta"
+   ],
+   "ru": [
+    "Валлетта"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Malta",
+    "Repubblika ta' Malta"
+   ],
+   "ru": [
+    "Республика Мальта"
+   ]
+  },
+  "latlng": [
+   35.83333333,
+   14.58333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MMR",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Myanmar",
+   "ru": "Мьянма"
+  },
+  "capital": {
+   "en": [
+    "Naypyidaw"
+   ],
+   "ru": [
+    "Нейпьидо"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of the Union of Myanmar",
+    "Burma",
+    "Pyidaunzu Thanmăda Myăma Nainngandaw"
+   ],
+   "ru": [
+    "Республика Союза Мьянма"
+   ]
+  },
+  "latlng": [
+   22,
+   98
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MNE",
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Montenegro",
+   "ru": "Черногория"
+  },
+  "capital": {
+   "en": [
+    "Podgorica"
+   ],
+   "ru": [
+    "Подгорица"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Montenegro",
+    "Crna Gora"
+   ],
+   "ru": [
+    "Черногория"
+   ]
+  },
+  "latlng": [
+   42.5,
+   19.3
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MNG",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Mongolia",
+   "ru": "Монголия"
+  },
+  "capital": {
+   "en": [
+    "Ulan Bator"
+   ],
+   "ru": [
+    "Улан-Батор"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Mongolia"
+   ],
+   "ru": [
+    "Монголия"
+   ]
+  },
+  "latlng": [
+   46,
+   105
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MNP",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "sovereign": false,
+  "name": {
+   "en": "Northern Mariana Islands",
+   "ru": "Северные Марианские острова"
+  },
+  "capital": {
+   "en": [
+    "Saipan"
+   ],
+   "ru": [
+    "Сайпан"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Commonwealth of the Northern Mariana Islands",
+    "Sankattan Siha Na Islas Mariånas"
+   ],
+   "ru": [
+    "Содружество Северных Марианских островов"
+   ]
+  },
+  "latlng": [
+   15.2,
+   145.75
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MOZ",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Mozambique",
+   "ru": "Мозамбик"
+  },
+  "capital": {
+   "en": [
+    "Maputo"
+   ],
+   "ru": [
+    "Мапуту"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Mozambique",
+    "República de Moçambique"
+   ],
+   "ru": [
+    "Республика Мозамбик"
+   ]
+  },
+  "latlng": [
+   -18.25,
+   35
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MRT",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Mauritania",
+   "ru": "Мавритания"
+  },
+  "capital": {
+   "en": [
+    "Nouakchott"
+   ],
+   "ru": [
+    "Нуакшот"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Islamic Republic of Mauritania"
+   ],
+   "ru": [
+    "Исламская Республика Мавритания"
+   ]
+  },
+  "latlng": [
+   20,
+   -12
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MSR",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Montserrat",
+   "ru": "Монтсеррат"
+  },
+  "capital": {
+   "en": [
+    "Plymouth"
+   ],
+   "ru": [
+    "Плимут"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Montserrat"
+   ],
+   "ru": [
+    "Монтсеррат"
+   ]
+  },
+  "latlng": [
+   16.75,
+   -62.2
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MTQ",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Martinique",
+   "ru": "Мартиника"
+  },
+  "capital": {
+   "en": [
+    "Fort-de-France"
+   ],
+   "ru": [
+    "Фор-де-Франс"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Martinique"
+   ],
+   "ru": [
+    "Мартиника"
+   ]
+  },
+  "latlng": [
+   14.666667,
+   -61
+  ],
+  "hasShape": false,
+  "flagShared": false
+ },
+ {
+  "code": "MUS",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Mauritius",
+   "ru": "Маврикий"
+  },
+  "capital": {
+   "en": [
+    "Port Louis"
+   ],
+   "ru": [
+    "Порт-Луи"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Mauritius",
+    "République de Maurice"
+   ],
+   "ru": [
+    "Республика Маврикий"
+   ]
+  },
+  "latlng": [
+   -20.28333333,
+   57.55
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MWI",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Malawi",
+   "ru": "Малави"
+  },
+  "capital": {
+   "en": [
+    "Lilongwe"
+   ],
+   "ru": [
+    "Лилонгве"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Malawi"
+   ],
+   "ru": [
+    "Республика Малави"
+   ]
+  },
+  "latlng": [
+   -13.5,
+   34
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MYS",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Malaysia",
+   "ru": "Малайзия"
+  },
+  "capital": {
+   "en": [
+    "Kuala Lumpur"
+   ],
+   "ru": [
+    "Куала-Лумпур"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Malaysia"
+   ],
+   "ru": [
+    "Малайзия"
+   ]
+  },
+  "latlng": [
+   2.5,
+   112.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "MYT",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": false,
+  "name": {
+   "en": "Mayotte",
+   "ru": "Майотта"
+  },
+  "capital": {
+   "en": [
+    "Mamoudzou"
+   ],
+   "ru": [
+    "Мамудзу"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Department of Mayotte",
+    "Département de Mayotte"
+   ],
+   "ru": [
+    "Департамент Майотта"
+   ]
+  },
+  "latlng": [
+   -12.83333333,
+   45.16666666
+  ],
+  "hasShape": false,
+  "flagShared": true
+ },
+ {
+  "code": "NAM",
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Namibia",
+   "ru": "Намибия"
+  },
+  "capital": {
+   "en": [
+    "Windhoek"
+   ],
+   "ru": [
+    "Виндхук"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Namibia",
+    "Namibië"
+   ],
+   "ru": [
+    "Республика Намибия"
+   ]
+  },
+  "latlng": [
+   -22,
+   17
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NCL",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "sovereign": false,
+  "name": {
+   "en": "New Caledonia",
+   "ru": "Новая Каледония"
+  },
+  "capital": {
+   "en": [
+    "Nouméa"
+   ],
+   "ru": [
+    "Нумеа"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "New Caledonia"
+   ],
+   "ru": [
+    "Новая Каледония"
+   ]
+  },
+  "latlng": [
+   -21.5,
+   165.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NER",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Niger",
+   "ru": "Нигер"
+  },
+  "capital": {
+   "en": [
+    "Niamey"
+   ],
+   "ru": [
+    "Ниамей"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Niger",
+    "Nijar"
+   ],
+   "ru": [
+    "Республика Нигер"
+   ]
+  },
+  "latlng": [
+   16,
+   8
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NFK",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "sovereign": false,
+  "name": {
+   "en": "Norfolk Island",
+   "ru": "Норфолк"
+  },
+  "capital": {
+   "en": [
+    "Kingston"
+   ],
+   "ru": [
+    "Кингстон"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Territory of Norfolk Island",
+    "Teratri of Norf'k Ailen"
+   ],
+   "ru": [
+    "Территория острова Норфолк"
+   ]
+  },
+  "latlng": [
+   -29.03333333,
+   167.95
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NGA",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Nigeria",
+   "ru": "Нигерия"
+  },
+  "capital": {
+   "en": [
+    "Abuja"
+   ],
+   "ru": [
+    "Абуджа"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Federal Republic of Nigeria",
+    "Nijeriya",
+    "Naíjíríà"
+   ],
+   "ru": [
+    "Федеративная Республика Нигерия"
+   ]
+  },
+  "latlng": [
+   10,
+   8
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NIC",
+  "region": "Americas",
+  "subregion": "Central America",
+  "sovereign": true,
+  "name": {
+   "en": "Nicaragua",
+   "ru": "Никарагуа"
+  },
+  "capital": {
+   "en": [
+    "Managua"
+   ],
+   "ru": [
+    "Манагуа"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Nicaragua",
+    "República de Nicaragua"
+   ],
+   "ru": [
+    "Республика Никарагуа"
+   ]
+  },
+  "latlng": [
+   13,
+   -85
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NIU",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "sovereign": false,
+  "name": {
+   "en": "Niue",
+   "ru": "Ниуэ"
+  },
+  "capital": {
+   "en": [
+    "Alofi"
+   ],
+   "ru": [
+    "Алофи"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Niue"
+   ],
+   "ru": [
+    "Ниуэ"
+   ]
+  },
+  "latlng": [
+   -19.03333333,
+   -169.86666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NLD",
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Netherlands",
+   "ru": "Нидерланды"
+  },
+  "capital": {
+   "en": [
+    "Amsterdam"
+   ],
+   "ru": [
+    "Амстердам"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of the Netherlands",
+    "Holland",
+    "Nederland",
+    "The Netherlands"
+   ],
+   "ru": [
+    "Нидерланды"
+   ]
+  },
+  "latlng": [
+   52.5,
+   5.75
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NOR",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Norway",
+   "ru": "Норвегия"
+  },
+  "capital": {
+   "en": [
+    "Oslo"
+   ],
+   "ru": [
+    "Осло"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Norway",
+    "Norge",
+    "Noreg",
+    "Kongeriket Norge",
+    "Kongeriket Noreg"
+   ],
+   "ru": [
+    "Королевство Норвегия"
+   ]
+  },
+  "latlng": [
+   62,
+   10
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NPL",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Nepal",
+   "ru": "Непал"
+  },
+  "capital": {
+   "en": [
+    "Kathmandu"
+   ],
+   "ru": [
+    "Катманду"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Federal Democratic Republic of Nepal",
+    "Loktāntrik Ganatantra Nepāl"
+   ],
+   "ru": [
+    "Федеративная Демократическая Республика Непал"
+   ]
+  },
+  "latlng": [
+   28,
+   84
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NRU",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "sovereign": true,
+  "name": {
+   "en": "Nauru",
+   "ru": "Науру"
+  },
+  "capital": {
+   "en": [
+    "Yaren"
+   ],
+   "ru": [
+    "Ярен"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Nauru",
+    "Naoero",
+    "Pleasant Island",
+    "Ripublik Naoero"
+   ],
+   "ru": [
+    "Республика Науру"
+   ]
+  },
+  "latlng": [
+   -0.53333333,
+   166.91666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "NZL",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "sovereign": true,
+  "name": {
+   "en": "New Zealand",
+   "ru": "Новая Зеландия"
+  },
+  "capital": {
+   "en": [
+    "Wellington"
+   ],
+   "ru": [
+    "Веллингтон"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "New Zealand",
+    "Aotearoa"
+   ],
+   "ru": [
+    "Новая Зеландия"
+   ]
+  },
+  "latlng": [
+   -41,
+   174
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "OMN",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Oman",
+   "ru": "Оман"
+  },
+  "capital": {
+   "en": [
+    "Muscat"
+   ],
+   "ru": [
+    "Маскат"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Sultanate of Oman"
+   ],
+   "ru": [
+    "Султанат Оман"
+   ]
+  },
+  "latlng": [
+   21,
+   57
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PAK",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Pakistan",
+   "ru": "Пакистан"
+  },
+  "capital": {
+   "en": [
+    "Islamabad"
+   ],
+   "ru": [
+    "Исламабад"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Islamic Republic of Pakistan",
+    "Pākistān",
+    "Islāmī Jumhūriya'eh Pākistān"
+   ],
+   "ru": [
+    "Исламская Республика Пакистан"
+   ]
+  },
+  "latlng": [
+   30,
+   70
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PAN",
+  "region": "Americas",
+  "subregion": "Central America",
+  "sovereign": true,
+  "name": {
+   "en": "Panama",
+   "ru": "Панама"
+  },
+  "capital": {
+   "en": [
+    "Panama City"
+   ],
+   "ru": [
+    "Панама"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Panama",
+    "República de Panamá"
+   ],
+   "ru": [
+    "Республика Панама"
+   ]
+  },
+  "latlng": [
+   9,
+   -80
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PCN",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "sovereign": false,
+  "name": {
+   "en": "Pitcairn Islands",
+   "ru": "Острова Питкэрн"
+  },
+  "capital": {
+   "en": [
+    "Adamstown"
+   ],
+   "ru": [
+    "Адамстаун"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Pitcairn Group of Islands",
+    "Pitcairn",
+    "Pitcairn Henderson Ducie and Oeno Islands"
+   ],
+   "ru": [
+    "Питкэрн группа островов"
+   ]
+  },
+  "latlng": [
+   -25.06666666,
+   -130.1
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PER",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Peru",
+   "ru": "Перу"
+  },
+  "capital": {
+   "en": [
+    "Lima"
+   ],
+   "ru": [
+    "Лима"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Peru",
+    "República del Perú"
+   ],
+   "ru": [
+    "Республика Перу"
+   ]
+  },
+  "latlng": [
+   -10,
+   -76
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PHL",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Philippines",
+   "ru": "Филиппины"
+  },
+  "capital": {
+   "en": [
+    "Manila"
+   ],
+   "ru": [
+    "Манила"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of the Philippines",
+    "Repúblika ng Pilipinas"
+   ],
+   "ru": [
+    "Республика Филиппины"
+   ]
+  },
+  "latlng": [
+   13,
+   122
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PLW",
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "sovereign": true,
+  "name": {
+   "en": "Palau",
+   "ru": "Палау"
+  },
+  "capital": {
+   "en": [
+    "Ngerulmud"
+   ],
+   "ru": [
+    "Нгерулмуд"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Palau",
+    "Beluu er a Belau"
+   ],
+   "ru": [
+    "Республика Палау"
+   ]
+  },
+  "latlng": [
+   7.5,
+   134.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PNG",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "sovereign": true,
+  "name": {
+   "en": "Papua New Guinea",
+   "ru": "Папуа — Новая Гвинея"
+  },
+  "capital": {
+   "en": [
+    "Port Moresby"
+   ],
+   "ru": [
+    "Порт-Морсби"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Independent State of Papua New Guinea",
+    "Independen Stet bilong Papua Niugini"
+   ],
+   "ru": [
+    "Независимое Государство Папуа-Новой Гвинеи"
+   ]
+  },
+  "latlng": [
+   -6,
+   147
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "POL",
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Poland",
+   "ru": "Польша"
+  },
+  "capital": {
+   "en": [
+    "Warsaw"
+   ],
+   "ru": [
+    "Варшава"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Poland",
+    "Rzeczpospolita Polska"
+   ],
+   "ru": [
+    "Республика Польша"
+   ]
+  },
+  "latlng": [
+   52,
+   20
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PRI",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Puerto Rico",
+   "ru": "Пуэрто-Рико"
+  },
+  "capital": {
+   "en": [
+    "San Juan"
+   ],
+   "ru": [
+    "Сан-Хуан"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Commonwealth of Puerto Rico",
+    "Estado Libre Asociado de Puerto Rico"
+   ],
+   "ru": [
+    "Содружество Пуэрто-Рико"
+   ]
+  },
+  "latlng": [
+   18.25,
+   -66.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PRK",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "North Korea",
+   "ru": "Северная Корея"
+  },
+  "capital": {
+   "en": [
+    "Pyongyang"
+   ],
+   "ru": [
+    "Пхеньян"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Democratic People's Republic of Korea",
+    "DPRK",
+    "Chosŏn Minjujuŭi Inmin Konghwaguk",
+    "Korea, Democratic People's Republic of"
+   ],
+   "ru": [
+    "Корейская Народно-Демократическая Республика Корея"
+   ]
+  },
+  "latlng": [
+   40,
+   127
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PRT",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Portugal",
+   "ru": "Португалия"
+  },
+  "capital": {
+   "en": [
+    "Lisbon"
+   ],
+   "ru": [
+    "Лиссабон"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Portuguese Republic",
+    "Portuguesa",
+    "República Portuguesa"
+   ],
+   "ru": [
+    "Португальская Республика"
+   ]
+  },
+  "latlng": [
+   39.5,
+   -8
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PRY",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Paraguay",
+   "ru": "Парагвай"
+  },
+  "capital": {
+   "en": [
+    "Asunción"
+   ],
+   "ru": [
+    "Асунсьон"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Paraguay",
+    "República del Paraguay",
+    "Tetã Paraguái"
+   ],
+   "ru": [
+    "Республика Парагвай"
+   ]
+  },
+  "latlng": [
+   -23,
+   -58
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PSE",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Palestine",
+   "ru": "Палестина"
+  },
+  "capital": {
+   "en": [
+    "Ramallah"
+   ],
+   "ru": [
+    "Рамалла",
+    "Восточный Иерусалим"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "State of Palestine",
+    "Palestine, State of",
+    "Dawlat Filasṭin"
+   ],
+   "ru": [
+    "Государство Палестина"
+   ]
+  },
+  "latlng": [
+   31.9,
+   35.2
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "PYF",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "sovereign": false,
+  "name": {
+   "en": "French Polynesia",
+   "ru": "Французская Полинезия"
+  },
+  "capital": {
+   "en": [
+    "Papeetē"
+   ],
+   "ru": [
+    "Папеэте"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "French Polynesia",
+    "Polynésie française",
+    "Pōrīnetia Farāni"
+   ],
+   "ru": [
+    "Французская Полинезия"
+   ]
+  },
+  "latlng": [
+   -15,
+   -140
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "QAT",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Qatar",
+   "ru": "Катар"
+  },
+  "capital": {
+   "en": [
+    "Doha"
+   ],
+   "ru": [
+    "Доха"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "State of Qatar",
+    "Dawlat Qaṭar"
+   ],
+   "ru": [
+    "Государство Катар"
+   ]
+  },
+  "latlng": [
+   25.5,
+   51.25
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "REU",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": false,
+  "name": {
+   "en": "Réunion",
+   "ru": "Реюньон"
+  },
+  "capital": {
+   "en": [
+    "Saint-Denis"
+   ],
+   "ru": [
+    "Сен-Дени"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Réunion Island",
+    "Reunion"
+   ],
+   "ru": [
+    "Реюньон"
+   ]
+  },
+  "latlng": [
+   -21.15,
+   55.5
+  ],
+  "hasShape": false,
+  "flagShared": true
+ },
+ {
+  "code": "ROU",
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Romania",
+   "ru": "Румыния"
+  },
+  "capital": {
+   "en": [
+    "Bucharest"
+   ],
+   "ru": [
+    "Бухарест"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Romania",
+    "Rumania",
+    "Roumania",
+    "România"
+   ],
+   "ru": [
+    "Румыния"
+   ]
+  },
+  "latlng": [
+   46,
+   25
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "RUS",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "capital": {
+   "en": [
+    "Moscow"
+   ],
+   "ru": [
+    "Москва"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Russian Federation"
+   ],
+   "ru": [
+    "Российская Федерация"
+   ]
+  },
+  "latlng": [
+   60,
+   100
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "RWA",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Rwanda",
+   "ru": "Руанда"
+  },
+  "capital": {
+   "en": [
+    "Kigali"
+   ],
+   "ru": [
+    "Кигали"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Rwanda",
+    "Repubulika y'u Rwanda",
+    "République du Rwanda"
+   ],
+   "ru": [
+    "Республика Руанда"
+   ]
+  },
+  "latlng": [
+   -2,
+   30
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SAU",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Saudi Arabia",
+   "ru": "Саудовская Аравия"
+  },
+  "capital": {
+   "en": [
+    "Riyadh"
+   ],
+   "ru": [
+    "Эр-Рияд",
+    "Рияд"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Saudi Arabia",
+    "Saudi"
+   ],
+   "ru": [
+    "Королевство Саудовская Аравия"
+   ]
+  },
+  "latlng": [
+   25,
+   45
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SDN",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Sudan",
+   "ru": "Судан"
+  },
+  "capital": {
+   "en": [
+    "Khartoum"
+   ],
+   "ru": [
+    "Хартум"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of the Sudan",
+    "Jumhūrīyat as-Sūdān"
+   ],
+   "ru": [
+    "Республика Судан"
+   ]
+  },
+  "latlng": [
+   15,
+   30
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SEN",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Senegal",
+   "ru": "Сенегал"
+  },
+  "capital": {
+   "en": [
+    "Dakar"
+   ],
+   "ru": [
+    "Дакар"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Senegal",
+    "République du Sénégal"
+   ],
+   "ru": [
+    "Республика Сенегал"
+   ]
+  },
+  "latlng": [
+   14,
+   -14
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SGP",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Singapore",
+   "ru": "Сингапур"
+  },
+  "capital": {
+   "en": [
+    "Singapore"
+   ],
+   "ru": [
+    "Сингапур"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Singapore",
+    "Singapura",
+    "Republik Singapura"
+   ],
+   "ru": [
+    "Республика Сингапур"
+   ]
+  },
+  "latlng": [
+   1.36666666,
+   103.8
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SGS",
+  "region": "Antarctic",
+  "subregion": "",
+  "sovereign": false,
+  "name": {
+   "en": "South Georgia",
+   "ru": "Южная Георгия и Южные Сандвичевы острова"
+  },
+  "capital": {
+   "en": [
+    "King Edward Point"
+   ],
+   "ru": [
+    "Кинг-Эдуард-Пойнт"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "South Georgia and the South Sandwich Islands"
+   ],
+   "ru": [
+    "Южная Георгия и Южные Сандвичевы острова"
+   ]
+  },
+  "latlng": [
+   -54.5,
+   -37
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SJM",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": false,
+  "name": {
+   "en": "Svalbard and Jan Mayen",
+   "ru": "Шпицберген и Ян-Майен"
+  },
+  "capital": {
+   "en": [
+    "Longyearbyen"
+   ],
+   "ru": [
+    "Лонгйир"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Svalbard og Jan Mayen",
+    "Svalbard and Jan Mayen Islands"
+   ],
+   "ru": [
+    "Свальбарда ог Ян-Майен"
+   ]
+  },
+  "latlng": [
+   78,
+   20
+  ],
+  "hasShape": false,
+  "flagShared": true
+ },
+ {
+  "code": "SLB",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "sovereign": true,
+  "name": {
+   "en": "Solomon Islands",
+   "ru": "Соломоновы Острова"
+  },
+  "capital": {
+   "en": [
+    "Honiara"
+   ],
+   "ru": [
+    "Хониара"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Solomon Islands"
+   ],
+   "ru": [
+    "Соломоновы острова"
+   ]
+  },
+  "latlng": [
+   -8,
+   159
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SLE",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Sierra Leone",
+   "ru": "Сьерра-Леоне"
+  },
+  "capital": {
+   "en": [
+    "Freetown"
+   ],
+   "ru": [
+    "Фритаун"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Sierra Leone"
+   ],
+   "ru": [
+    "Республика Сьерра-Леоне"
+   ]
+  },
+  "latlng": [
+   8.5,
+   -11.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SLV",
+  "region": "Americas",
+  "subregion": "Central America",
+  "sovereign": true,
+  "name": {
+   "en": "El Salvador",
+   "ru": "Сальвадор"
+  },
+  "capital": {
+   "en": [
+    "San Salvador"
+   ],
+   "ru": [
+    "Сан-Сальвадор"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of El Salvador",
+    "República de El Salvador"
+   ],
+   "ru": [
+    "Республика Эль-Сальвадор"
+   ]
+  },
+  "latlng": [
+   13.83333333,
+   -88.91666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SMR",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "San Marino",
+   "ru": "Сан-Марино"
+  },
+  "capital": {
+   "en": [
+    "City of San Marino"
+   ],
+   "ru": [
+    "Сан-Марино"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Most Serene Republic of San Marino",
+    "Republic of San Marino",
+    "Repubblica di San Marino"
+   ],
+   "ru": [
+    "Большинство Serene Республика Сан-Марино"
+   ]
+  },
+  "latlng": [
+   43.76666666,
+   12.41666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SOM",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Somalia",
+   "ru": "Сомали"
+  },
+  "capital": {
+   "en": [
+    "Mogadishu"
+   ],
+   "ru": [
+    "Могадишо"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Federal Republic of Somalia",
+    "aṣ-Ṣūmāl",
+    "Jamhuuriyadda Federaalka Soomaaliya",
+    "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
+   ],
+   "ru": [
+    "Федеративная Республика Сомали"
+   ]
+  },
+  "latlng": [
+   10,
+   49
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SPM",
+  "region": "Americas",
+  "subregion": "North America",
+  "sovereign": false,
+  "name": {
+   "en": "Saint Pierre and Miquelon",
+   "ru": "Сен-Пьер и Микелон"
+  },
+  "capital": {
+   "en": [
+    "Saint-Pierre"
+   ],
+   "ru": [
+    "Сен-Пьер"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Saint Pierre and Miquelon",
+    "Collectivité territoriale de Saint-Pierre-et-Miquelon"
+   ],
+   "ru": [
+    "Сен-Пьер и Микелон"
+   ]
+  },
+  "latlng": [
+   46.83333333,
+   -56.33333333
+  ],
+  "hasShape": true,
+  "flagShared": true
+ },
+ {
+  "code": "SRB",
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Serbia",
+   "ru": "Сербия"
+  },
+  "capital": {
+   "en": [
+    "Belgrade"
+   ],
+   "ru": [
+    "Белград"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Serbia",
+    "Srbija",
+    "Republika Srbija"
+   ],
+   "ru": [
+    "Республика Сербия"
+   ]
+  },
+  "latlng": [
+   44,
+   21
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SSD",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "sovereign": true,
+  "name": {
+   "en": "South Sudan",
+   "ru": "Южный Судан"
+  },
+  "capital": {
+   "en": [
+    "Juba"
+   ],
+   "ru": [
+    "Джуба"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of South Sudan"
+   ],
+   "ru": [
+    "Республика Южный Судан"
+   ]
+  },
+  "latlng": [
+   7,
+   30
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "STP",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "sovereign": true,
+  "name": {
+   "en": "São Tomé and Príncipe",
+   "ru": "Сан-Томе и Принсипи"
+  },
+  "capital": {
+   "en": [
+    "São Tomé"
+   ],
+   "ru": [
+    "Сан-Томе"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Democratic Republic of São Tomé and Príncipe",
+    "Sao Tome and Principe",
+    "República Democrática de São Tomé e Príncipe"
+   ],
+   "ru": [
+    "Демократическая Республика Сан-Томе и Принсипи"
+   ]
+  },
+  "latlng": [
+   1,
+   7
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SUR",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Suriname",
+   "ru": "Суринам"
+  },
+  "capital": {
+   "en": [
+    "Paramaribo"
+   ],
+   "ru": [
+    "Парамарибо"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Suriname",
+    "Sarnam",
+    "Sranangron",
+    "Republiek Suriname"
+   ],
+   "ru": [
+    "Республика Суринам"
+   ]
+  },
+  "latlng": [
+   4,
+   -56
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SVK",
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Slovakia",
+   "ru": "Словакия"
+  },
+  "capital": {
+   "en": [
+    "Bratislava"
+   ],
+   "ru": [
+    "Братислава"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Slovak Republic",
+    "Slovenská republika"
+   ],
+   "ru": [
+    "Словацкая Республика"
+   ]
+  },
+  "latlng": [
+   48.66666666,
+   19.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SVN",
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Slovenia",
+   "ru": "Словения"
+  },
+  "capital": {
+   "en": [
+    "Ljubljana"
+   ],
+   "ru": [
+    "Любляна"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Slovenia",
+    "Republika Slovenija"
+   ],
+   "ru": [
+    "Республика Словения"
+   ]
+  },
+  "latlng": [
+   46.11666666,
+   14.81666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SWE",
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Sweden",
+   "ru": "Швеция"
+  },
+  "capital": {
+   "en": [
+    "Stockholm"
+   ],
+   "ru": [
+    "Стокгольм"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Sweden",
+    "Konungariket Sverige"
+   ],
+   "ru": [
+    "Королевство Швеция"
+   ]
+  },
+  "latlng": [
+   62,
+   15
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SWZ",
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Eswatini",
+   "ru": "Свазиленд"
+  },
+  "capital": {
+   "en": [
+    "Lobamba"
+   ],
+   "ru": [
+    "Мбабане",
+    "Лобамба"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Eswatini",
+    "Swaziland",
+    "weSwatini",
+    "Swatini",
+    "Ngwane",
+    "Umbuso weSwatini"
+   ],
+   "ru": [
+    "Королевство Свазиленд"
+   ]
+  },
+  "latlng": [
+   -26.5,
+   31.5
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SXM",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Sint Maarten",
+   "ru": "Синт-Мартен"
+  },
+  "capital": {
+   "en": [
+    "Philipsburg"
+   ],
+   "ru": [
+    "Филипсбург"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Sint Maarten",
+    "Sint Maarten (Dutch part)"
+   ],
+   "ru": [
+    "Синт-Маартен"
+   ]
+  },
+  "latlng": [
+   18.033333,
+   -63.05
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SYC",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Seychelles",
+   "ru": "Сейшельские Острова"
+  },
+  "capital": {
+   "en": [
+    "Victoria"
+   ],
+   "ru": [
+    "Виктория"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Seychelles",
+    "Repiblik Sesel",
+    "République des Seychelles"
+   ],
+   "ru": [
+    "Республика Сейшельские Острова"
+   ]
+  },
+  "latlng": [
+   -4.58333333,
+   55.66666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "SYR",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Syria",
+   "ru": "Сирия"
+  },
+  "capital": {
+   "en": [
+    "Damascus"
+   ],
+   "ru": [
+    "Дамаск"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Syrian Arab Republic"
+   ],
+   "ru": [
+    "Сирийская Арабская Республика"
+   ]
+  },
+  "latlng": [
+   35,
+   38
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TCA",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "Turks and Caicos Islands",
+   "ru": "Теркс и Кайкос"
+  },
+  "capital": {
+   "en": [
+    "Cockburn Town"
+   ],
+   "ru": [
+    "Кокберн-Таун"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Turks and Caicos Islands"
+   ],
+   "ru": [
+    "Теркс и Кайкос острова"
+   ]
+  },
+  "latlng": [
+   21.75,
+   -71.58333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TCD",
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Chad",
+   "ru": "Чад"
+  },
+  "capital": {
+   "en": [
+    "N'Djamena"
+   ],
+   "ru": [
+    "Нджамена"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Chad",
+    "Tchad",
+    "République du Tchad"
+   ],
+   "ru": [
+    "Республика Чад"
+   ]
+  },
+  "latlng": [
+   15,
+   19
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TGO",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Togo",
+   "ru": "Того"
+  },
+  "capital": {
+   "en": [
+    "Lomé"
+   ],
+   "ru": [
+    "Ломе"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Togolese Republic",
+    "Togolese",
+    "République Togolaise"
+   ],
+   "ru": [
+    "Того Республика"
+   ]
+  },
+  "latlng": [
+   8,
+   1.16666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "THA",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Thailand",
+   "ru": "Таиланд"
+  },
+  "capital": {
+   "en": [
+    "Bangkok"
+   ],
+   "ru": [
+    "Бангкок"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Thailand",
+    "Prathet",
+    "Thai",
+    "Ratcha Anachak Thai"
+   ],
+   "ru": [
+    "Королевство Таиланд"
+   ]
+  },
+  "latlng": [
+   15,
+   100
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TJK",
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Tajikistan",
+   "ru": "Таджикистан"
+  },
+  "capital": {
+   "en": [
+    "Dushanbe"
+   ],
+   "ru": [
+    "Душанбе"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Tajikistan",
+    "Toçikiston",
+    "Çumhuriyi Toçikiston"
+   ],
+   "ru": [
+    "Республика Таджикистан"
+   ]
+  },
+  "latlng": [
+   39,
+   71
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TKL",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "sovereign": false,
+  "name": {
+   "en": "Tokelau",
+   "ru": "Токелау"
+  },
+  "capital": {
+   "en": [
+    "Fakaofo"
+   ],
+   "ru": [
+    "Факаофо"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Tokelau"
+   ],
+   "ru": [
+    "Токелау"
+   ]
+  },
+  "latlng": [
+   -9,
+   -172
+  ],
+  "hasShape": false,
+  "flagShared": false
+ },
+ {
+  "code": "TKM",
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Turkmenistan",
+   "ru": "Туркмения"
+  },
+  "capital": {
+   "en": [
+    "Ashgabat"
+   ],
+   "ru": [
+    "Ашхабад"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Turkmenistan"
+   ],
+   "ru": [
+    "Туркменистан"
+   ]
+  },
+  "latlng": [
+   40,
+   60
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TLS",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Timor-Leste",
+   "ru": "Восточный Тимор"
+  },
+  "capital": {
+   "en": [
+    "Dili"
+   ],
+   "ru": [
+    "Дили"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Democratic Republic of Timor-Leste",
+    "East Timor",
+    "Timor",
+    "República Democrática de Timor-Leste",
+    "Repúblika Demokrátika Timór-Leste",
+    "Timór Lorosa'e",
+    "Timor Lorosae"
+   ],
+   "ru": [
+    "Демократическая Республика Тимор -Лешти"
+   ]
+  },
+  "latlng": [
+   -8.83333333,
+   125.91666666
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TON",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "sovereign": true,
+  "name": {
+   "en": "Tonga",
+   "ru": "Тонга"
+  },
+  "capital": {
+   "en": [
+    "Nuku'alofa"
+   ],
+   "ru": [
+    "Нукуалофа"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Kingdom of Tonga"
+   ],
+   "ru": [
+    "Королевство Тонга"
+   ]
+  },
+  "latlng": [
+   -20,
+   -175
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TTO",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Trinidad and Tobago",
+   "ru": "Тринидад и Тобаго"
+  },
+  "capital": {
+   "en": [
+    "Port of Spain"
+   ],
+   "ru": [
+    "Порт-оф-Спейн"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Trinidad and Tobago"
+   ],
+   "ru": [
+    "Республика Тринидад и Тобаго"
+   ]
+  },
+  "latlng": [
+   11,
+   -61
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TUN",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Tunisia",
+   "ru": "Тунис"
+  },
+  "capital": {
+   "en": [
+    "Tunis"
+   ],
+   "ru": [
+    "Тунис"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Tunisian Republic",
+    "Republic of Tunisia",
+    "al-Jumhūriyyah at-Tūnisiyyah"
+   ],
+   "ru": [
+    "Тунисской Республики"
+   ]
+  },
+  "latlng": [
+   34,
+   9
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TUR",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Türkiye",
+   "ru": "Турция"
+  },
+  "capital": {
+   "en": [
+    "Ankara"
+   ],
+   "ru": [
+    "Анкара"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Türkiye",
+    "Turkiye",
+    "Republic of Turkey",
+    "Türkiye Cumhuriyeti"
+   ],
+   "ru": [
+    "Республика Турции"
+   ]
+  },
+  "latlng": [
+   39,
+   35
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TUV",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "sovereign": true,
+  "name": {
+   "en": "Tuvalu",
+   "ru": "Тувалу"
+  },
+  "capital": {
+   "en": [
+    "Funafuti"
+   ],
+   "ru": [
+    "Фунафути"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Tuvalu"
+   ],
+   "ru": [
+    "Тувалу"
+   ]
+  },
+  "latlng": [
+   -8,
+   178
+  ],
+  "hasShape": false,
+  "flagShared": false
+ },
+ {
+  "code": "TWN",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "sovereign": false,
+  "name": {
+   "en": "Taiwan",
+   "ru": "Тайвань"
+  },
+  "capital": {
+   "en": [
+    "Taipei"
+   ],
+   "ru": [
+    "Тайбэй"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of China (Taiwan)",
+    "Táiwān",
+    "Republic of China",
+    "Zhōnghuá Mínguó",
+    "Chinese Taipei"
+   ],
+   "ru": [
+    "Китайская Республика"
+   ]
+  },
+  "latlng": [
+   23.5,
+   121
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "TZA",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Tanzania",
+   "ru": "Танзания"
+  },
+  "capital": {
+   "en": [
+    "Dodoma"
+   ],
+   "ru": [
+    "Додома"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "United Republic of Tanzania",
+    "Tanzania, United Republic of",
+    "Jamhuri ya Muungano wa Tanzania"
+   ],
+   "ru": [
+    "Объединенная Республика Танзания"
+   ]
+  },
+  "latlng": [
+   -6,
+   35
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "UGA",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Uganda",
+   "ru": "Уганда"
+  },
+  "capital": {
+   "en": [
+    "Kampala"
+   ],
+   "ru": [
+    "Кампала"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Uganda",
+    "Jamhuri ya Uganda"
+   ],
+   "ru": [
+    "Республика Уганда"
+   ]
+  },
+  "latlng": [
+   1,
+   32
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "UKR",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Ukraine",
+   "ru": "Украина"
+  },
+  "capital": {
+   "en": [
+    "Kyiv"
+   ],
+   "ru": [
+    "Киев"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Ukraine",
+    "Ukrayina"
+   ],
+   "ru": [
+    "Украина"
+   ]
+  },
+  "latlng": [
+   49,
+   32
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "UMI",
+  "region": "Americas",
+  "subregion": "North America",
+  "sovereign": false,
+  "name": {
+   "en": "United States Minor Outlying Islands",
+   "ru": "Внешние малые острова США"
+  },
+  "capital": {
+   "en": [],
+   "ru": []
+  },
+  "aliases": {
+   "en": [
+    "United States Minor Outlying Islands"
+   ],
+   "ru": [
+    "Внешние малые острова США"
+   ]
+  },
+  "latlng": [
+   19.3,
+   166.633333
+  ],
+  "hasShape": false,
+  "flagShared": true
+ },
+ {
+  "code": "URY",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Uruguay",
+   "ru": "Уругвай"
+  },
+  "capital": {
+   "en": [
+    "Montevideo"
+   ],
+   "ru": [
+    "Монтевидео"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Oriental Republic of Uruguay",
+    "República Oriental del Uruguay"
+   ],
+   "ru": [
+    "Восточной Республики Уругвай"
+   ]
+  },
+  "latlng": [
+   -33,
+   -56
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "USA",
+  "region": "Americas",
+  "subregion": "North America",
+  "sovereign": true,
+  "name": {
+   "en": "United States",
+   "ru": "Соединённые Штаты Америки"
+  },
+  "capital": {
+   "en": [
+    "Washington D.C."
+   ],
+   "ru": [
+    "Вашингтон"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "United States of America",
+    "USA"
+   ],
+   "ru": [
+    "Соединенные Штаты Америки"
+   ]
+  },
+  "latlng": [
+   38,
+   -97
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "UZB",
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Uzbekistan",
+   "ru": "Узбекистан"
+  },
+  "capital": {
+   "en": [
+    "Tashkent"
+   ],
+   "ru": [
+    "Ташкент"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Uzbekistan"
+   ],
+   "ru": [
+    "Республика Узбекистан"
+   ]
+  },
+  "latlng": [
+   41,
+   64
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "VAT",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "sovereign": true,
+  "name": {
+   "en": "Vatican City",
+   "ru": "Ватикан"
+  },
+  "capital": {
+   "en": [
+    "Vatican City"
+   ],
+   "ru": [
+    "Ватикан"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Vatican City State",
+    "Holy See (Vatican City State)",
+    "Vatican",
+    "Stato della Città del Vaticano"
+   ],
+   "ru": [
+    "Город-государство Ватикан"
+   ]
+  },
+  "latlng": [
+   41.9,
+   12.45
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "VCT",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": true,
+  "name": {
+   "en": "Saint Vincent and the Grenadines",
+   "ru": "Сент-Винсент и Гренадины"
+  },
+  "capital": {
+   "en": [
+    "Kingstown"
+   ],
+   "ru": [
+    "Кингстаун"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Saint Vincent and the Grenadines"
+   ],
+   "ru": [
+    "Сент-Винсент и Гренадины"
+   ]
+  },
+  "latlng": [
+   13.25,
+   -61.2
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "VEN",
+  "region": "Americas",
+  "subregion": "South America",
+  "sovereign": true,
+  "name": {
+   "en": "Venezuela",
+   "ru": "Венесуэла"
+  },
+  "capital": {
+   "en": [
+    "Caracas"
+   ],
+   "ru": [
+    "Каракас"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Bolivarian Republic of Venezuela",
+    "Venezuela, Bolivarian Republic of",
+    "República Bolivariana de Venezuela"
+   ],
+   "ru": [
+    "Боливарианская Республика Венесуэла"
+   ]
+  },
+  "latlng": [
+   8,
+   -66
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "VGB",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "British Virgin Islands",
+   "ru": "Британские Виргинские острова"
+  },
+  "capital": {
+   "en": [
+    "Road Town"
+   ],
+   "ru": [
+    "Род-Таун"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Virgin Islands",
+    "Virgin Islands, British"
+   ],
+   "ru": [
+    "Виргинские острова"
+   ]
+  },
+  "latlng": [
+   18.431383,
+   -64.62305
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "VIR",
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "sovereign": false,
+  "name": {
+   "en": "United States Virgin Islands",
+   "ru": "Виргинские Острова"
+  },
+  "capital": {
+   "en": [
+    "Charlotte Amalie"
+   ],
+   "ru": [
+    "Шарлотта-Амалия"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Virgin Islands of the United States",
+    "Virgin Islands, U.S."
+   ],
+   "ru": [
+    "Виргинские острова Соединенных Штатов"
+   ]
+  },
+  "latlng": [
+   18.35,
+   -64.933333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "VNM",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Vietnam",
+   "ru": "Вьетнам"
+  },
+  "capital": {
+   "en": [
+    "Hanoi"
+   ],
+   "ru": [
+    "Ханой"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Socialist Republic of Vietnam",
+    "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+    "Viet Nam"
+   ],
+   "ru": [
+    "Социалистическая Республика Вьетнам"
+   ]
+  },
+  "latlng": [
+   16.16666666,
+   107.83333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "VUT",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "sovereign": true,
+  "name": {
+   "en": "Vanuatu",
+   "ru": "Вануату"
+  },
+  "capital": {
+   "en": [
+    "Port Vila"
+   ],
+   "ru": [
+    "Порт-Вила"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Vanuatu",
+    "Ripablik blong Vanuatu",
+    "République de Vanuatu"
+   ],
+   "ru": [
+    "Республика Вануату"
+   ]
+  },
+  "latlng": [
+   -16,
+   167
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "WLF",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "sovereign": false,
+  "name": {
+   "en": "Wallis and Futuna",
+   "ru": "Уоллис и Футуна"
+  },
+  "capital": {
+   "en": [
+    "Mata-Utu"
+   ],
+   "ru": [
+    "Мата-Уту"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Territory of the Wallis and Futuna Islands",
+    "Territoire des îles Wallis et Futuna"
+   ],
+   "ru": [
+    "Территория Уоллис и Футуна острова"
+   ]
+  },
+  "latlng": [
+   -13.3,
+   -176.2
+  ],
+  "hasShape": true,
+  "flagShared": true
+ },
+ {
+  "code": "WSM",
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "sovereign": true,
+  "name": {
+   "en": "Samoa",
+   "ru": "Самоа"
+  },
+  "capital": {
+   "en": [
+    "Apia"
+   ],
+   "ru": [
+    "Апиа"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Independent State of Samoa"
+   ],
+   "ru": [
+    "Независимое Государство Самоа"
+   ]
+  },
+  "latlng": [
+   -13.58333333,
+   -172.33333333
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "YEM",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "sovereign": true,
+  "name": {
+   "en": "Yemen",
+   "ru": "Йемен"
+  },
+  "capital": {
+   "en": [
+    "Sana'a"
+   ],
+   "ru": [
+    "Сана"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Yemen",
+    "Yemeni Republic",
+    "al-Jumhūriyyah al-Yamaniyyah"
+   ],
+   "ru": [
+    "Йеменская Республика"
+   ]
+  },
+  "latlng": [
+   15,
+   48
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ZAF",
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "South Africa",
+   "ru": "Южно-Африканская Республика"
+  },
+  "capital": {
+   "en": [
+    "Pretoria",
+    "Bloemfontein",
+    "Cape Town"
+   ],
+   "ru": [
+    "Претория",
+    "Блумфонтейн",
+    "Кейптаун"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of South Africa",
+    "RSA",
+    "Suid-Afrika"
+   ],
+   "ru": [
+    "Южно-Африканская Республика"
+   ]
+  },
+  "latlng": [
+   -29,
+   24
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ZMB",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Zambia",
+   "ru": "Замбия"
+  },
+  "capital": {
+   "en": [
+    "Lusaka"
+   ],
+   "ru": [
+    "Лусака"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Zambia"
+   ],
+   "ru": [
+    "Республика Замбия"
+   ]
+  },
+  "latlng": [
+   -15,
+   30
+  ],
+  "hasShape": true,
+  "flagShared": false
+ },
+ {
+  "code": "ZWE",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "sovereign": true,
+  "name": {
+   "en": "Zimbabwe",
+   "ru": "Зимбабве"
+  },
+  "capital": {
+   "en": [
+    "Harare"
+   ],
+   "ru": [
+    "Хараре"
+   ]
+  },
+  "aliases": {
+   "en": [
+    "Republic of Zimbabwe"
+   ],
+   "ru": [
+    "Республика Зимбабве"
+   ]
+  },
+  "latlng": [
+   -20,
+   30
+  ],
+  "hasShape": true,
+  "flagShared": false
+ }
+]
