@@ -1,6 +1,6 @@
 # Сборка и публикация на GitHub Pages при каждом push в main.
-# Нужны переменные репозитория (Settings → Secrets and variables → Actions → Variables):
-#   VITE_SUPABASE_URL, VITE_SUPABASE_ANON_KEY — те же, что в .env.local (publishable-ключ, не секретный).
+# Нужны VITE_SUPABASE_URL и VITE_SUPABASE_ANON_KEY — те же, что в .env.local (publishable-ключ, не секретный).
+# Задайте их в Settings → Secrets and variables → Actions: подойдёт и вкладка Variables, и вкладка Secrets.
 name: Deploy to GitHub Pages
 
 on:
@@ -31,8 +31,17 @@ jobs:
       - run: npm run build
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
-          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
-          VITE_SUPABASE_ANON_KEY: ${{ vars.VITE_SUPABASE_ANON_KEY }}
+          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL || secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ vars.VITE_SUPABASE_ANON_KEY || secrets.VITE_SUPABASE_ANON_KEY }}
+      # Без ключей сайт соберётся, но облако в нём будет выключено — предупреждаем прямо в отчёте сборки.
+      - name: Check Supabase keys
+        run: |
+          if [ -z "$VITE_SUPABASE_URL" ] || [ -z "$VITE_SUPABASE_ANON_KEY" ]; then
+            echo "::warning::VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY не заданы — облачное сохранение на сайте будет выключено"
+          fi
+        env:
+          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL || secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ vars.VITE_SUPABASE_ANON_KEY || secrets.VITE_SUPABASE_ANON_KEY }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

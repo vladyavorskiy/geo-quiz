@@ -69,7 +69,7 @@ scripts/             build-data.mjs + capitals-ru.mjs — пересборка s
 Один раз в репозитории на GitHub:
 
 1. **Settings → Pages → Build and deployment → Source**: выберите **GitHub Actions**.
-2. **Settings → Secrets and variables → Actions → вкладка Variables → New repository variable**:
+2. **Settings → Secrets and variables → Actions** (вкладка Variables или Secrets — подойдёт любая):
    `VITE_SUPABASE_URL` и `VITE_SUPABASE_ANON_KEY` — те же значения, что в `.env.local`.
 3. Запустите сборку: вкладка **Actions → Deploy to GitHub Pages → Run workflow** (или просто сделайте push).
 
