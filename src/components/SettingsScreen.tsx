@@ -1,14 +1,16 @@
 import type { ReactNode } from 'react';
 import { AccountPanel, type SyncState } from './AccountPanel';
 import { KIND_HINTS, KIND_LABELS, MODE_LABELS, MODE_SHORT, REGION_LABELS, STRINGS } from '../logic/i18n';
-import { canAsk, countryPool, enabledCombos, fitsMode } from '../logic/questions';
-import { KINDS, MODES, REGIONS, type Kind, type Mode, type Settings } from '../logic/types';
+import { LEARNED_STREAK, isLearned, loadStats } from '../logic/progress';
+import { canAsk, countryPool, enabledCombos, fitsMode, regionProgress } from '../logic/questions';
+import { KINDS, MODES, REGIONS, type Kind, type Mode, type Region, type Settings } from '../logic/types';
 
 interface Props {
   settings: Settings;
   onChange: (s: Settings) => void;
   onStart: () => void;
   onMistakes: () => void;
+  onStudy: (region: Region) => void;
   email: string | null;
   sync: SyncState;
 }
@@ -16,10 +18,12 @@ interface Props {
 const LENGTHS = [10, 20, 50, 'all'] as const;
 const OPTION_COUNTS = [2, 3, 4, 6, 8];
 
-export function SettingsScreen({ settings: s, onChange, onStart, onMistakes, email, sync }: Props) {
+export function SettingsScreen({ settings: s, onChange, onStart, onMistakes, onStudy, email, sync }: Props) {
   const t = STRINGS[s.lang];
   const combos = enabledCombos(s);
-  const count = countryPool(s).filter((c) => combos.some(({ kind }) => canAsk(c, kind))).length;
+  const stats = loadStats();
+  const progress = regionProgress(s, stats);
+  const count = countryPool(s).filter((c) => combos.some(({ kind }) => canAsk(c, kind) && !(s.onlyNew && isLearned(stats[`${c.code}:${kind}`])))).length;
   const total = s.length === 'all' ? count : Math.min(count, s.length);
   const usesChoice = combos.some((x) => x.mode === 'choice');
 
@@ -112,13 +116,29 @@ export function SettingsScreen({ settings: s, onChange, onStart, onMistakes, ema
         </Panel>
 
         <Panel title={t.regions} wide>
-          <div className="region-chips">
-            {REGIONS.map((r) => (
-              <button key={r} type="button" className="chip" aria-pressed={s.regions.includes(r)} onClick={() => toggleRegion(r)}>
-                {REGION_LABELS[s.lang][r]}
-              </button>
-            ))}
+          <div className="region-grid">
+            {REGIONS.map((r) => {
+              const p = progress[r];
+              return (
+                <div key={r} className={`region-tile${s.regions.includes(r) ? ' on' : ''}`}>
+                  <button type="button" className="chip" aria-pressed={s.regions.includes(r)} onClick={() => toggleRegion(r)}>
+                    {REGION_LABELS[s.lang][r]}
+                  </button>
+                  <div className="region-meter" role="img" aria-label={t.learnedOf(p.learned, p.total)}>
+                    <i style={{ width: `${p.total ? (100 * p.learned) / p.total : 0}%` }} />
+                  </div>
+                  <span className="region-count">{t.learnedOf(p.learned, p.total)}</span>
+                  <button type="button" className="link" disabled={!p.total} onClick={() => onStudy(r)}>{t.study} →</button>
+                </div>
+              );
+            })}
           </div>
+          <label className="switch" title={t.onlyNewHint(LEARNED_STREAK)}>
+            <input type="checkbox" checked={s.onlyNew} onChange={() => onChange({ ...s, onlyNew: !s.onlyNew })} />
+            <span className="switch-track" aria-hidden="true" />
+            {t.onlyNew}
+          </label>
+          <p className="account-note">{t.onlyNewHint(LEARNED_STREAK)}</p>
         </Panel>
       </div>
 

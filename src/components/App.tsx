@@ -2,14 +2,15 @@ import { useEffect, useState } from 'react';
 import { supabase } from '../logic/cloud';
 import { loadSettings, loadStats, saveSettings, syncWithCloud } from '../logic/progress';
 import { generateSession, retrySession } from '../logic/questions';
-import { firstTry, type Answer, type Question, type Settings } from '../logic/types';
+import { firstTry, type Answer, type Question, type Region, type Settings } from '../logic/types';
 import { QuizScreen } from './QuizScreen';
 import type { SyncState } from './AccountPanel';
 import { MistakesScreen } from './MistakesScreen';
+import { StudyScreen } from './StudyScreen';
 import { ResultScreen } from './ResultScreen';
 import { SettingsScreen } from './SettingsScreen';
 
-type Screen = 'settings' | 'quiz' | 'result' | 'mistakes';
+type Screen = 'settings' | 'quiz' | 'result' | 'mistakes' | 'study';
 
 export function App() {
   const [screen, setScreen] = useState<Screen>('settings');
@@ -17,6 +18,7 @@ export function App() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<Answer[]>([]);
   const [session, setSession] = useState(0); // меняется при каждом старте, чтобы QuizScreen начинался заново
+  const [studyRegion, setStudyRegion] = useState<Region>('Europe');
   const [email, setEmail] = useState<string | null>(null);
   const [sync, setSync] = useState<SyncState>('off');
 
@@ -48,7 +50,7 @@ export function App() {
   return (
     <main>
       {screen === 'settings' && (
-        <SettingsScreen settings={settings} onChange={changeSettings} onStart={() => start(generateSession(settings, loadStats()))} onMistakes={() => setScreen('mistakes')} email={email} sync={sync} />
+        <SettingsScreen settings={settings} onChange={changeSettings} onStart={() => start(generateSession(settings, loadStats()))} onMistakes={() => setScreen('mistakes')} onStudy={(r) => { setStudyRegion(r); setScreen('study'); }} email={email} sync={sync} />
       )}
       {screen === 'quiz' && (
         <QuizScreen key={session} questions={questions} lang={settings.lang} sovereignOnly={settings.scope === 'sovereign'} keepMarks={settings.keepMarks} onFinish={(a) => { setAnswers(a); setScreen('result'); }} />
@@ -61,6 +63,14 @@ export function App() {
           onNew={() => start(generateSession(settings, loadStats()))}
           onSettings={() => setScreen('settings')}
           onMistakes={() => setScreen('mistakes')}
+        />
+      )}
+      {screen === 'study' && (
+        <StudyScreen
+          region={studyRegion}
+          settings={settings}
+          onBack={() => setScreen('settings')}
+          onQuiz={(onlyNew, subregion) => start(generateSession({ ...settings, regions: [studyRegion], subregion, onlyNew }, loadStats()))}
         />
       )}
       {screen === 'mistakes' && <MistakesScreen lang={settings.lang} onBack={() => setScreen('settings')} />}

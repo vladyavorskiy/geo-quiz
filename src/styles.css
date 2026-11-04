@@ -16,6 +16,7 @@
   --bad: #dc2626;
   --picked: #57534e;
   --dim: #7b8794;
+  --selected: #9cc3ff;
   --accent-soft: #dcebea;
   --flag-1: #1f6f78;
   --flag-2: #ffffff;
@@ -35,6 +36,7 @@
     --land-unclaimed: #b9b6ae;
     --border-land: #5b6a72;
     --dim: #3b4247;
+    --selected: #6f9ff0;
     --accent-soft: #1f3c3f;
     --flag-2: #e6e2d8;
     color-scheme: dark;
@@ -178,6 +180,7 @@ main:has(.settings) { max-width: 1120px; }
 .country.dim { fill: var(--dim); pointer-events: none; }
 .dot.country.dim { display: none; }
 .country.target { fill: var(--target); fill-opacity: 1; }
+.country.selected { fill: var(--selected); fill-opacity: 1; }
 .country.picked { fill: var(--picked); fill-opacity: 1; }
 .country.try1 { fill: var(--try1); fill-opacity: 1; }
 .country.try2 { fill: var(--try2); fill-opacity: 1; }
@@ -236,6 +239,41 @@ main:has(.settings) { max-width: 1120px; }
 .sync-ok { color: var(--try1); }
 .sync-error { color: var(--bad); }
 .sync-syncing { color: var(--muted); }
+
+/* Регионы и прогресс */
+.region-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; }
+.region-tile { display: flex; flex-direction: column; gap: 6px; padding: 10px; border: 1px solid var(--border); border-radius: 10px; }
+.region-tile.on { border-color: var(--accent); }
+.region-tile .chip { align-self: flex-start; }
+.region-meter { height: 6px; border-radius: 3px; background: var(--border); overflow: hidden; }
+.region-meter i { display: block; height: 100%; background: var(--try1); }
+.region-count { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.region-tile .link { align-self: flex-start; font-size: 14px; color: var(--accent); text-decoration: none; }
+.region-tile .link:hover:not(:disabled) { text-decoration: underline; }
+
+/* Изучение */
+main:has(.study) { max-width: none; padding: 12px 16px; }
+.study { height: calc(100vh - 24px); display: flex; flex-direction: column; }
+.study-body { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 12px; }
+.study-body .map-wrap { margin: 0; min-height: 0; }
+.study-side { display: flex; flex-direction: column; gap: 12px; min-height: 0; overflow-y: auto; }
+.study-card { padding: 14px; border: 1px solid var(--border); border-radius: 12px; background: var(--panel); }
+.study-card img { width: 100%; max-height: 150px; object-fit: contain; }
+.study-card h2 { margin: 8px 0 4px; }
+.study-card dl { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; margin: 0 0 8px; font-size: 14px; }
+.study-card dt { color: var(--muted); }
+.study-card dd { margin: 0; }
+.study-status { list-style: none; padding: 0; margin: 0; font-size: 14px; }
+.study-status li { display: flex; justify-content: space-between; gap: 8px; padding: 3px 0; border-top: 1px solid var(--border); }
+.study-status li.learned span:last-child { color: var(--try1); }
+.study-status li.seen span:last-child { color: var(--bad); }
+.study-status li.new span:last-child { color: var(--muted); }
+.study-list h3 { margin: 4px 0 6px; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.study-list section + section { margin-top: 10px; }
+.chip.learned { border-color: var(--try1); }
+.sub-chips { margin-top: 0; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+.study-actions { display: flex; flex-wrap: wrap; gap: 8px; position: sticky; bottom: 0; padding-top: 8px; background: var(--bg); }
+@media (max-width: 800px) { .study { height: auto; } .study-body { grid-template-columns: 1fr; } .study-body .map-wrap { height: 55vh; } }
 
 /* Мои ошибки */
 main:has(.mistakes-screen) { max-width: 820px; }

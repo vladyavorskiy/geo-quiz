@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { checkText, normalize } from './checkAnswer';
 import { DOTS, SHAPES, countryOutline } from './geo';
 import { DEFAULT_SETTINGS } from './progress';
@@ -169,11 +169,62 @@ describe('облако', () => {
     expect(mergeStats(
       { 'FRA:flag': { right: 3, wrong: 1 }, 'PER:flag': { right: 0, wrong: 2 } },
       { 'FRA:flag': { right: 2, wrong: 4 }, 'RUS:capital': { right: 1, wrong: 0 } },
-    )).toEqual({ 'FRA:flag': { right: 3, wrong: 4 }, 'PER:flag': { right: 0, wrong: 2 }, 'RUS:capital': { right: 1, wrong: 0 } });
+    )).toEqual({ 'FRA:flag': { right: 3, wrong: 4, streak: 0 }, 'PER:flag': { right: 0, wrong: 2 }, 'RUS:capital': { right: 1, wrong: 0 } });
   });
   it('без ключей Supabase облако выключено, приложение работает локально', async () => {
-    const { supabase, pull } = await import('./cloud');
-    expect(supabase).toBeNull();
-    expect(await pull()).toBeNull();
+    // Локально Vitest читает .env.local с настоящими ключами — убираем их на время теста и грузим модуль заново.
+    vi.stubEnv('VITE_SUPABASE_URL', '');
+    vi.stubEnv('VITE_SUPABASE_ANON_KEY', '');
+    vi.resetModules();
+    try {
+      const { supabase, pull } = await import('./cloud');
+      expect(supabase).toBeNull();
+      expect(await pull()).toBeNull();
+    } finally {
+      vi.unstubAllEnvs();
+    }
+  });
+});
+
+describe('выучено и прогресс по регионам', () => {
+  it('isLearned: нужна серия из LEARNED_STREAK верных подряд; старые записи без streak — по отсутствию ошибок', async () => {
+    const { isLearned, LEARNED_STREAK: N } = await import('./progress');
+    expect(isLearned(undefined)).toBe(false);
+    expect(isLearned({ right: N, wrong: 0, streak: N })).toBe(true);
+    expect(isLearned({ right: N + 3, wrong: 1, streak: N - 1 })).toBe(false);
+    expect(isLearned({ right: N, wrong: 0 })).toBe(true);
+    expect(isLearned({ right: N - 1, wrong: 0 })).toBe(false);
+    expect(isLearned({ right: N + 1, wrong: 1 })).toBe(false);
+  });
+
+  it('regionProgress считает страну выученной, только если выучены все включённые типы', async () => {
+    const { regionProgress } = await import('./questions');
+    const { LEARNED_STREAK: N } = await import('./progress');
+    const s: Settings = { ...DEFAULT_SETTINGS, play: { flag: ['choice'], capital: ['text'] } };
+    const p0 = regionProgress(s, {});
+    expect(p0.Europe.learned).toBe(0);
+    expect(p0.Europe.total).toBeGreaterThan(40);
+    const ok = { right: N, wrong: 0, streak: N };
+    expect(regionProgress(s, { 'FRA:flag': ok }).Europe.learned).toBe(0); // столицу ещё не выучили
+    expect(regionProgress(s, { 'FRA:flag': ok, 'FRA:capital': ok }).Europe.learned).toBe(1);
+  });
+
+  it('«только невыученные» пропускает выученные пары', async () => {
+    const { LEARNED_STREAK: N } = await import('./progress');
+    const ok = { right: N, wrong: 0, streak: N };
+    const s: Settings = { ...DEFAULT_SETTINGS, regions: ['Europe'], length: 'all', play: { flag: ['choice'] }, onlyNew: true };
+    const all = generateSession({ ...s, onlyNew: false });
+    const fresh = generateSession(s, { 'FRA:flag': ok, 'DEU:flag': ok });
+    expect(fresh).toHaveLength(all.length - 2);
+    expect(fresh.some((q) => q.country.code === 'FRA')).toBe(false);
+  });
+});
+
+describe('субрегион', () => {
+  it('сессия только по выбранному субрегиону', () => {
+    const qs = generateSession({ ...DEFAULT_SETTINGS, regions: ['Europe'], subregion: 'Western Europe', length: 'all', play: { flag: ['choice'] } });
+    expect(qs.length).toBeGreaterThan(3);
+    expect(qs.every((q) => q.country.subregion === 'Western Europe')).toBe(true);
+    expect(countryPool({ ...DEFAULT_SETTINGS, regions: ['Europe'] }).some((c) => c.subregion !== 'Western Europe')).toBe(true);
   });
 });

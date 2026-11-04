@@ -32,11 +32,28 @@ describe('syncWithCloud', () => {
     expect(settings.length).toBe(50);
     expect(settings.play.flag).toBeDefined(); // недостающее берётся из настроек по умолчанию
     expect(loadStats()).toEqual({
-      'FRA:flag': { right: 5, wrong: 3 },
+      'FRA:flag': { right: 5, wrong: 3, streak: 5 }, // в облаке 5 верных без ошибок — серия 5
       'PER:shape': { right: 0, wrong: 1 },
       'RUS:name': { right: 1, wrong: 1 },
     });
     expect(pushed).toHaveLength(1);
     expect((pushed[0] as { stats: unknown }).stats).toEqual(loadStats());
+  });
+});
+
+describe('recordAnswer', () => {
+  beforeEach(() => store.clear());
+  it('ведёт серию верных ответов подряд и обнуляет её при ошибке', async () => {
+    const { recordAnswer, loadStats, isLearned, LEARNED_STREAK: N } = await import('./progress');
+    const { BY_CODE } = await import('./types');
+    const q = { country: BY_CODE.get('FRA')!, mode: 'choice' as const, kind: 'flag' as const };
+    for (let i = 1; i < N; i++) recordAnswer(q, true);
+    expect(isLearned(loadStats()['FRA:flag'])).toBe(false);
+    recordAnswer(q, true);
+    expect(loadStats()['FRA:flag']).toEqual({ right: N, wrong: 0, streak: N });
+    expect(isLearned(loadStats()['FRA:flag'])).toBe(true);
+    recordAnswer(q, false);
+    expect(loadStats()['FRA:flag']).toEqual({ right: N, wrong: 1, streak: 0 });
+    expect(isLearned(loadStats()['FRA:flag'])).toBe(false);
   });
 });

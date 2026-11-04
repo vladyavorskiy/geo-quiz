@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { DOTS, HEIGHT, SHAPES, WIDTH, boundsOf } from '../logic/geo';
+import { DOTS, HEIGHT, SHAPES, WIDTH, boundsOf, centerOf } from '../logic/geo';
 import type { Hint } from '../logic/hints';
 import { BY_CODE } from '../logic/types';
 
@@ -7,12 +7,12 @@ import { BY_CODE } from '../logic/types';
  * target — «вот эта страна» (в вопросах «назовите»), picked — ошибочный выбор,
  * try1/try2/try3 — угадано с 1-й/2-й/3-й попытки, wrong — не угадано.
  */
-export type Mark = 'target' | 'picked' | 'try1' | 'try2' | 'try3' | 'wrong';
+export type Mark = 'target' | 'selected' | 'picked' | 'try1' | 'try2' | 'try3' | 'wrong';
 
 interface Props {
   marks?: Record<string, Mark>;
-  /** Если задано — карта сама приблизится к этой стране. Без него зум не трогаем. */
-  focus?: string;
+  /** Если задано — карта сама приблизится к этой стране (или к группе стран целиком). Без него зум не трогаем. */
+  focus?: string | string[];
   onSelect?: (code: string) => void;
   /** Не показывать точки несуверенных территорий. */
   sovereignOnly?: boolean;
@@ -31,13 +31,21 @@ export function WorldMap({ marks = {}, focus, onSelect, sovereignOnly, hint }: P
   const [box, setBox] = useState({ w: WIDTH, h: HEIGHT }); // viewBox под размер окна, карта по центру
   const drag = useRef<{ x: number; y: number; moved: boolean } | null>(null);
 
+  const focusKey = Array.isArray(focus) ? focus.join(',') : focus; // массив пересоздаётся каждый рендер — сравниваем по содержимому
   useEffect(() => {
-    const b = focus ? boundsOf(focus) : null;
+    if (!focus?.length) return;
+    let b: [[number, number], [number, number]] | null;
+    if (Array.isArray(focus)) {
+      // Группу вписываем по центрам стран: контуры России, Фиджи и т.п. пересекают линию перемены дат и растянули бы рамку на весь мир.
+      const pts = focus.map(centerOf);
+      b = [[Math.min(...pts.map((p) => p[0])), Math.min(...pts.map((p) => p[1]))], [Math.max(...pts.map((p) => p[0])), Math.max(...pts.map((p) => p[1]))]];
+    } else b = boundsOf(focus);
     if (!b) return;
     const [[x0, y0], [x1, y1]] = b;
-    const k = Math.min(8, Math.max(1, 0.3 / Math.max((x1 - x0) / WIDTH, (y1 - y0) / HEIGHT)));
+    const fill = Array.isArray(focus) ? 0.75 : 0.3; // какую долю окна занимает цель
+    const k = Math.min(8, Math.max(1, fill / Math.max((x1 - x0) / WIDTH, (y1 - y0) / HEIGHT)));
     setView({ k, x: WIDTH / 2 - k * (x0 + x1) / 2, y: HEIGHT / 2 - k * (y0 + y1) / 2 });
-  }, [focus]);
+  }, [focusKey]);
 
   // Подгоняем viewBox под пропорции окна, чтобы карта заполняла его целиком.
   useEffect(() => {

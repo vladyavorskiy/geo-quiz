@@ -38,12 +38,16 @@ export interface Settings {
   /** Для каждого типа вопроса — какими способами отвечать. Тип без способов выключен. */
   play: Partial<Record<Kind, Mode[]>>;
   regions: Region[];
+  /** Только этот субрегион (напр. «Western Europe»). Задаётся при запуске из «Изучения», в настройках не хранится. */
+  subregion?: string;
   scope: 'sovereign' | 'all';
   length: number | 'all';
   /** Закрашивать на карте страны, уже отвеченные в этой сессии. */
   keepMarks: boolean;
   /** Сколько вариантов в режиме выбора. */
   optionCount: number;
+  /** Спрашивать только то, что ещё не выучено (см. isLearned). */
+  onlyNew: boolean;
 }
 
 export interface Question {

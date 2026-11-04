@@ -1,8 +1,18 @@
 import { pull, push, schedulePush } from './cloud';
 import { KINDS, MODES, REGIONS, type Kind, type Mode, type Question, type Settings } from './types';
 
-/** Счёт по паре «страна:тип», напр. "FRA:flag". */
-export type Stats = Record<string, { right: number; wrong: number }>;
+/**
+ * Счёт по паре «страна:тип», напр. "FRA:flag". streak — сколько раз подряд ответили с первой попытки
+ * (в старых записях его нет — см. currentStreak).
+ */
+export type Stats = Record<string, { right: number; wrong: number; streak?: number }>;
+
+/** Сколько верных ответов подряд нужно, чтобы пара «страна:тип» считалась выученной. */
+export const LEARNED_STREAK = 5;
+
+/** Для записей до появления streak: без ошибок — все верные шли подряд, с ошибками — неизвестно, считаем с нуля. */
+const currentStreak = (s: Stats[string]) => s.streak ?? (s.wrong === 0 ? s.right : 0);
+export const isLearned = (s?: Stats[string]) => !!s && currentStreak(s) >= LEARNED_STREAK;
 
 // При несовместимом изменении формата — увеличьте версию в ключе.
 const SETTINGS_KEY = 'geo-quiz:settings:v1';
@@ -16,6 +26,7 @@ export const DEFAULT_SETTINGS: Settings = {
   length: 20,
   keepMarks: true,
   optionCount: 4,
+  onlyNew: false,
 };
 
 function read<T>(key: string): Partial<T> {
@@ -51,7 +62,9 @@ export function recordAnswer(q: Question, correct: boolean) {
   const stats = loadStats();
   const key = `${q.country.code}:${q.kind}`;
   const s = stats[key] ?? { right: 0, wrong: 0 };
-  stats[key] = correct ? { ...s, right: s.right + 1 } : { ...s, wrong: s.wrong + 1 };
+  stats[key] = correct
+    ? { right: s.right + 1, wrong: s.wrong, streak: currentStreak(s) + 1 }
+    : { right: s.right, wrong: s.wrong + 1, streak: 0 };
   write(STATS_KEY, stats);
   schedulePush(localData);
 }
@@ -67,7 +80,7 @@ export function mergeStats(a: Stats, b: Stats): Stats {
   const out: Stats = { ...a };
   for (const [k, v] of Object.entries(b)) {
     const w = out[k];
-    out[k] = w ? { right: Math.max(w.right, v.right), wrong: Math.max(w.wrong, v.wrong) } : v;
+    out[k] = w ? { right: Math.max(w.right, v.right), wrong: Math.max(w.wrong, v.wrong), streak: Math.max(currentStreak(w), currentStreak(v)) } : v;
   }
   return out;
 }

@@ -1,7 +1,7 @@
-import type { Stats } from './progress';
+import { isLearned, type Stats } from './progress';
 import { CITIES } from '../data/cities';
 import { SCATTERED_SHAPES } from './geo';
-import { COUNTRIES, asksCapital, type Country, type Kind, type Lang, type Mode, type Option, type Question, type Settings } from './types';
+import { COUNTRIES, REGIONS, asksCapital, type Country, type Region, type Kind, type Lang, type Mode, type Option, type Question, type Settings } from './types';
 
 /*
  * Что значит каждая клетка матрицы «режим × тип»:
@@ -50,7 +50,7 @@ export function answerLabel(c: Country, kind: Kind, lang: Lang): string {
 }
 
 export function countryPool(s: Settings): Country[] {
-  return COUNTRIES.filter((c) => (s.scope === 'all' || c.sovereign) && s.regions.includes(c.region));
+  return COUNTRIES.filter((c) => (s.scope === 'all' || c.sovereign) && s.regions.includes(c.region) && (!s.subregion || c.subregion === s.subregion));
 }
 
 function shuffle<T>(a: T[], rng: () => number): T[] {
@@ -113,10 +113,29 @@ export function generateSession(s: Settings, stats: Stats = {}, rng: () => numbe
   const out: Question[] = [];
   for (const { c } of ordered) {
     if (s.length !== 'all' && out.length >= s.length) break;
-    const combos = all.filter(({ kind }) => canAsk(c, kind));
+    const combos = all.filter(({ kind }) => canAsk(c, kind) && !(s.onlyNew && isLearned(stats[`${c.code}:${kind}`])));
     if (!combos.length) continue;
     const { mode, kind } = combos[Math.floor(rng() * combos.length)];
     out.push({ country: c, mode, kind, options: mode === 'choice' ? pickOptions(c, kind, s, rng) : undefined });
+  }
+  return out;
+}
+
+/** Какие из включённых типов вопросов можно задать про страну. */
+export const askableKinds = (c: Country, s: Settings) => [...new Set(enabledCombos(s).map((x) => x.kind))].filter((k) => canAsk(c, k));
+
+/**
+ * Освоение по регионам: страна выучена, если выучены все включённые в настройках типы вопросов, которые про неё можно задать.
+ * Учитываются страны выбранного охвата (суверенные / все) во всех регионах, а не только в отмеченных.
+ */
+export function regionProgress(s: Settings, stats: Stats): Record<Region, { learned: number; total: number }> {
+  const out = Object.fromEntries(REGIONS.map((r) => [r, { learned: 0, total: 0 }])) as Record<Region, { learned: number; total: number }>;
+  for (const c of COUNTRIES) {
+    if (s.scope !== 'all' && !c.sovereign) continue;
+    const kinds = askableKinds(c, s);
+    if (!kinds.length) continue;
+    out[c.region].total++;
+    if (kinds.every((k) => isLearned(stats[`${c.code}:${k}`]))) out[c.region].learned++;
   }
   return out;
 }
