@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { checkText, type TextVerdict } from '../logic/checkAnswer';
 import { countryOutline } from '../logic/geo';
 import { MAX_HINT, hintFor } from '../logic/hints';
@@ -27,6 +27,7 @@ export function QuizScreen({ questions, lang, sovereignOnly, keepMarks, onFinish
   const [done, setDone] = useState<{ solved: boolean; fuzzy: boolean } | null>(null);
   const [hintLevel, setHintLevel] = useState(0);
   const [text, setText] = useState('');
+  const inputRef = useRef<HTMLInputElement>(null);
   const [popup, setPopup] = useState<{ text: string; final: boolean } | null>(null); // сообщение об ошибке по центру
 
   const q = questions[index];
@@ -53,6 +54,7 @@ export function QuizScreen({ questions, lang, sovereignOnly, keepMarks, onFinish
     const left = MAX_TRIES - wrongs.length;
     const final = !given || left === 0; // '' — «не знаю»
     setWrong(wrongs);
+    if (q.mode === 'text') setText(''); // неверный текст виден во всплывающем окне — поле очищаем для новой попытки
     setPopup({
       final,
       text: final ? t.wrong(fullAnswer) : q.mode === 'text' ? t.youTyped(given, left) : t.youPicked(pickedLabel(given), left),
@@ -70,6 +72,11 @@ export function QuizScreen({ questions, lang, sovereignOnly, keepMarks, onFinish
   }
 
   // Любая клавиша закрывает всплывашку; Enter или пробел после ответа — следующий вопрос (в текстовом режиме Enter до ответа отправляет форму).
+  // В режиме ввода текста курсор всегда в поле: на новом вопросе и после закрытия окна с ошибкой.
+  useEffect(() => {
+    if (q.mode === 'text' && !done && !popup) inputRef.current?.focus();
+  }, [index, done, popup, q.mode]);
+
   useEffect(() => {
     if (!done && !popup) return;
     const onKey = (e: KeyboardEvent) => {
@@ -144,7 +151,7 @@ export function QuizScreen({ questions, lang, sovereignOnly, keepMarks, onFinish
 
       {q.mode === 'text' && (
         <form className="text-answer" onSubmit={(e) => { e.preventDefault(); if (text.trim()) attempt(text.trim(), checkText(text, c, q.kind)); }}>
-          <input autoFocus value={text} disabled={!!done} placeholder={t.typeAnswer} onChange={(e) => setText(e.target.value)} />
+          <input ref={inputRef} value={text} disabled={!!done} placeholder={t.typeAnswer} onChange={(e) => setText(e.target.value)} />
           <button type="submit" disabled={!!done}>{t.check}</button>
           <button type="button" disabled={!!done} onClick={() => attempt('', 'wrong')}>{t.skip}</button>
         </form>
